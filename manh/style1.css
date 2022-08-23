@@ -1,0 +1,123 @@
+body{
+    font-family: Tahoma;
+    font-size: 13px;
+    width :100%;
+    background-color: rgb(192, 183, 183);
+    margin:0;
+}
+.main1{
+    background-color:rgb(224, 214, 214);
+    height:2000px;
+    width:80%;
+    margin:0 auto;
+}
+#menu_top1{
+    background-color:rgb(0, 0, 0);
+    height: 50px;
+    width:80%;
+    position: fixed;
+    top:0;
+}
+#menu_top1 ul li {
+    list-style: none;
+    float: left;
+}
+#menu_top1 ul li a{
+    text-decoration: none;
+    display block;
+    height: 40px;
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+    padding :0px 35px 0px 35px;
+    border-right: 1px  solid#f1f1f1;
+}
+#menu_top1 ul li a.active{
+   background: rgb(36, 201, 201) ;
+}
+.heo{
+    background-color:rgb(241, 97, 97);
+    width:100%;
+    height: 200px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+.kaka{
+    background-color:white;
+    width:50%;
+    height: 180px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    width: 100%;
+}
+.kaka h1{
+    text-align: center;
+}
+.kaka  h2{
+    color:rgb(226, 49, 49);
+}
+.huhu{
+    background-color: blue;
+    width: 100%;
+    height: 1000px;
+}
+.huhu img{
+    width:100%;
+    height: 100%;
+}
+#thu h1{
+    position: absolute;
+    font-size: 19px;
+    left: 1100px;
+    top: 800px;
+    bottom: 0px;
+    width:20%;
+    text-align: left;
+}
+#thu1 h1{
+    width:20%;
+    position: absolute;
+    font-size: 19px;
+    left: 700px;
+    top:1550px;
+    bottom:30px;
+    text-align: left;
+}
+#thu2 h1{
+    width:35%;
+    position: absolute;
+    font-size: 19px;
+    left: 850px;
+    top:2400px;
+    bottom:30px;
+    text-align: left;
+}
+#thu3 h1{
+    width:24%;
+    position: absolute;
+    font-size: 19px;
+    left: 700px;
+    top:3000px;
+    bottom:30px;
+    text-align: left;
+}
+#thu4 h1{
+    width:24%;
+    position: absolute;
+    font-size: 19px;
+    left: 700px;
+    top:3700px;
+    bottom:30px;
+    text-align: left;
+}
+#thu5 h1{
+    width:24%;
+    position: absolute;
+    font-size: 19px;
+    left: 600px;
+    top:4250px;
+    bottom:30px;
+    text-align: left;
+}
+
