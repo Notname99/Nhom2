@@ -15,12 +15,12 @@ body{
     justify-content: center;
     background: #fff;
 }
-.header{
+.wrapper{
     width: 1400px;
     margin: auto;
     background: #f8f8f8;
 }
-.header .header-body{
+.wrapper .header{
     margin: 25px 25px;
 }
 .logo{
@@ -66,7 +66,7 @@ body{
     height: 50px;
     margin-left: 60px;
 }
-.map .img a{
+.img a{
     color: #000;
     text-decoration: none;
 }
@@ -87,16 +87,19 @@ body{
     border: 1px solid #000;
     border-radius: 50%;
 }
-.hotline .zalo p{
-    font-weight: 500;
-    margin: 11px 8px;
-    color: #fff;
+.hotline .zalo img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
 }
 .cart{
     float: left;
     width: 50px;
     height: 50px;
     margin: 15px 15px;
+}
+.cart a{
+    color: #000000
 }
 .login{
     float: left;
@@ -189,6 +192,7 @@ body{
     color: #000000;
 }
 .dropdowns{
+    background: #ECECEC;
     float: right;
     margin: 25px 25px;
     width: 276px;
@@ -200,7 +204,7 @@ body{
     border-radius: 5px;
     border: 2px solid #000000;
 }
-.san-pham .san-pham-adidas{
+.main .main-adidas{
     float: left;
     width: 1160px;
     height: auto;
@@ -227,4 +231,65 @@ ul.product li .product-info a{
     text-decoration: none;
     color: #000000;
     margin-bottom: 5px;
+}
+ul.footer-class{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ul.footer-class li{
+    flex-basis: 20%;
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+ul.footer-class li .item{
+    width: 30px;
+    height: 50px;
+    float: left;
+}
+ul.footer-class1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ul.footer-class1 li{
+    flex-basis: 33%;
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+ul.footer-class1 li .imgs{
+    float: left;
+    width: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+ul.footer-class1 li .imgs img{
+    width: 100%;
+    height: auto;
+}
+.size{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.items p{
+    text-transform: uppercase;
+}
+.items a{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+}
+a.ttch{
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 20px;
+    border: 1px solid #000000;
 }

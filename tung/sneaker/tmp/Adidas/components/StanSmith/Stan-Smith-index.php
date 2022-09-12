@@ -1,0 +1,1 @@
+<p>Stan-Smith-index</p>
