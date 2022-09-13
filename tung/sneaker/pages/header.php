@@ -48,6 +48,10 @@
                         <a href="../../index.php?quanly=Stan-Smith&id=2">Adidas Stan Smith</a>
                         <a href="../../index.php?quanly=Alphabounce&id=3">Adidas Alphabounce</a>
                         <a href="../../index.php?quanly=NMD&id=4">Adidas NMD</a>
+                        <a href="../../index.php?quanly=Prophere&id=5">Adidas Prophere</a>
+                        <a href="../../index.php?quanly=Ultraboost&id=6">Adidas Ultraboost</a>
+                        <a href="../../index.php?quanly=Falcon&id=7">Adidas Falcon</a>
+                        <a href="../../index.php?quanly=Yeezy&id=8">Adidas Yeezy</a>
                     </div>
                     </div>
             </li>

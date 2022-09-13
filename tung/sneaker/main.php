@@ -20,6 +20,18 @@
     }elseif ($tam=='NMD'){
         include("./pages/loc.php");
         include("./tmp/Adidas/components/NMD/NMD-index.php");
+    }elseif ($tam=='Prophere'){
+        include("./pages/loc.php");
+        include("./tmp/Adidas/components/Prophere/Prophere-index.php");
+    }elseif ($tam=='Ultraboost'){
+        include("./pages/loc.php");
+        include("./tmp/Adidas/components/Ultraboost/Ultraboost-index.php");
+    }elseif ($tam=='Falcon'){
+        include("./pages/loc.php");
+        include("./tmp/Adidas/components/Falcon/Falcon-index.php");
+    }elseif ($tam=='Yeezy'){
+        include("./pages/loc.php");
+        include("./tmp/Adidas/components/Yeezy/Yeezy-index.php");
     }elseif($tam=='Nike'){
         include("./pages/loc.php");
         include("./tmp/Nike/Nike-index.php");
@@ -39,6 +51,15 @@
         include("./pages/main/diachi.php");
     }elseif ($tam=='cart'){
         include("./pages/main/cart.php");
+    }elseif ($tam=='page1'){
+        include("./pages/loc.php");
+        include("./tmp/Adidas/Adidas-index.php");
+    }elseif ($tam=='page2'){
+        include("./pages/loc.php");
+        include("./tmp/Adidas/Adidas-index.php");
+    }elseif ($tam=='page3'){
+        include("./pages/loc.php");
+        include("./tmp/Adidas/Adidas-index.php");
     }
     else{
         include("./pages/main/index.php");

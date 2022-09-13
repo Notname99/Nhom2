@@ -1,7 +1,38 @@
 <div class="cach"></div>
+<?php
+    if ($tam=='Adidas' || $tam=='page1' || $tam=='page2' || $tam=='page3'){
+        $thuong_hieu = 'Adidas';
+    }elseif ($tam=='SuperStar'){
+        $thuong_hieu = 'Adidas Super Star';
+    }elseif ($tam=='Stan-Smith'){
+        $thuong_hieu = 'Adidas Stan Smith';
+    }elseif ($tam=='Alphabounce'){
+        $thuong_hieu = 'Adidas Alphabounce';
+    }elseif ($tam=='NMD'){
+        $thuong_hieu = 'Adidas NMD';
+    }elseif ($tam=='Prophere'){
+        $thuong_hieu = 'Adidas Prophere';
+    }elseif ($tam=='Ultraboost'){
+        $thuong_hieu = 'Adidas Ultraboost';
+    }elseif ($tam=='Falcon'){
+        $thuong_hieu = 'Adidas Falcon';
+    }elseif ($tam=='Yeezy'){
+        $thuong_hieu = 'Adidas Yeezy';
+    }elseif ($tam=='Nike'){
+        $thuong_hieu = 'Nike';
+    }elseif ($tam=='Air-Force-1'){
+        $thuong_hieu = 'Nike Air Force 1';
+    }elseif ($tam=='Jordan'){
+        $thuong_hieu = 'Nike Jordan';
+    }elseif ($tam=='Air-Max'){
+        $thuong_hieu = 'Nike Air Max';
+    }elseif ($tam=='M2K-Tekno'){
+        $thuong_hieu = 'Nike M2K Tekno';
+    }
+?>
+<h1 class="thuong_hieu"><?=$thuong_hieu?></h1>
 <div class="loc">
     <div>
-        <h1>Adidas</h1><br>
         <div class="ltth">
             <h5>Lọc theo thương hiệu</h5><br>
             <a href="#">Adidas ()</a><br><br><br>

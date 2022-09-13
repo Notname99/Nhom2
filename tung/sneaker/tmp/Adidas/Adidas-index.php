@@ -1,23 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adidas</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../asset/css/components/Adidas/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+<?php
+    include './admincp/config/connect_db.php';
 
-</head>
-<body>
-    <div class="wrapper">
-        <?php
-        include("./tmp/Adidas/main.php");
-        ?>
+    $so_sp = !empty($_GET['per_page']) ? $_GET['per_page'] : 12;
+    $trang_ht = !empty($_GET['page']) ? $_GET['page'] : 1;
+    $offset = ($trang_ht - 1) * $so_sp;
+
+    $query = "SELECT * FROM tb_adidas, tb_yeezy WHERE tb_adidas.masp=tb_yeezy.id ORDER BY tb_adidas.id ASC LIMIT ".$so_sp." OFFSET ".$offset;
+    $mysql = mysqli_query($conn, $query);
+
+    $querys = "SELECT * FROM tb_adidas";
+    $tong = mysqli_query($conn, $querys);
+    $tong = $tong->num_rows;
+    $so_trang = ceil($tong / $so_sp);
+?>
+
+<div class="wrapper">
+    <div class="main">
+        <div class="dropdowns">
+            <select name="" id="">
+                <option value="new">Mới nhất</option>
+                <option value="">Thứ tự theo mức phổ biến</option>
+                <option value="">Thứ tự theo điểm đánh giá</option>
+                <option value="">Thứ tự theo giá: thấp đến cao</option>
+                <option value="">Thứ tự theo giá: cao xuống thấp</option>
+            </select>
+        </div>
+        <div class="main-adidas">
+            <ul class="product">
+                <?php while ($row = mysqli_fetch_array($mysql)) { ?>
+                <li>
+                    <div class="product-item">
+                        <div class="product-top">
+                            <a href="#" class="product-thumb">
+                                <img src=<?=$row['img']?> alt="">
+                            </a>
+                        </div>
+                        <div class="product-info">
+                            <a href="#" class="product-name"><?=$row['ten']?></a>
+                            <a href="#" class="product-price"><?=number_format($row['gia'],0,",",".")?><samp>đ</samp></a>
+                        </div>
+                    </div>
+                </li>
+                <?php } ?>
+            </ul>
+            <div class="number_page">
+                <?php if ($trang_ht > 1) {
+                    $prev_page = $trang_ht - 1;
+                ?>
+                    <a href="../../index.php?quanly=page1&per_page=<?=$so_sp?>&page=<?=$prev_page?>" class="page-item"><-</a>
+                <?php } ?>
+                <?php for($num = 1; $num <= $so_trang; $num++) { ?>
+                    <?php if ($num != $trang_ht) { ?>
+                        <?php if ($num > $trang_ht - 1 && $num < $trang_ht + 2) { ?>
+                            <a class="page-item" href="../../index.php?quanly=page1&per_page=<?=$so_sp?>&page=<?=$num?>"><?=$num?></a>
+                        <?php } ?>
+                    <?php } else { ?>
+                        <strong class="dam page-item"><?=$num?></strong>
+                    <?php } ?>
+                <?php } ?>
+                <?php if ($trang_ht < $so_trang - 1) {
+                    $next_page = $trang_ht + 1;?>
+                    <a href="../../index.php?quanly=page1&per_page=<?=$so_sp?>&page=<?=$next_page?>" class="page-item">-></a>
+                <?php } ?>
+            </div>
+        </div>
     </div>
-    <div class="clear"></div>
-</body>
-</html>
+</div>
+<div class="clear"></div>
