@@ -1,7 +1,7 @@
 <?php
     include './admincp/config/connect_db.php';
 
-    $query = "SELECT * FROM tb_ultraboost ORDER BY id ASC";
+    $query = "SELECT * FROM `tb_adidas` WHERE id=4 OR id=5 OR id=6 OR id=7 ORDER BY id ASC";
     $mysql = mysqli_query($conn, $query);
 ?>
 

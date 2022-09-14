@@ -1,7 +1,7 @@
 <?php
     include './admincp/config/connect_db.php';
 
-    $query = "SELECT * FROM tb_superstar ORDER BY id ASC";
+    $query = "SELECT * FROM `tb_adidas` WHERE id=27 ORDER BY id ASC";
     $mysql = mysqli_query($conn, $query);
 ?>
 

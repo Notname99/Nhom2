@@ -188,6 +188,7 @@ h1.thuong_hieu{
     float: left;
 }
 .loc a {
+    display: block;
     color: #000000;
     text-decoration: none;
 }
@@ -314,4 +315,13 @@ a.ttch{
     color: #ffffff;
     padding: 5px 10px;
     border: 1px solid #A9A9A9;
+}
+.gioi_thieu{
+    width: 1350px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.gioi_thieu img {
+    width: 50%;
 }

@@ -34,41 +34,41 @@
 <div class="loc">
     <div>
         <div class="ltth">
-            <h5>Lọc theo thương hiệu</h5><br>
-            <a href="#">Adidas ()</a><br><br><br>
+            <h5>Lọc theo thương hiệu</h5>
+            <a href="#">Adidas ()</a><br><br>
         </div>
         <div class="loc-size">
-            <h5>Lọc theo size</h5><br>
-            <a href="#">35 ()</a><br>
-            <a href="#">36 ()</a><br>
-            <a href="#">37 ()</a><br>
-            <a href="#">38 ()</a><br>
-            <a href="#">39 ()</a><br>
-            <a href="#">40 ()</a><br>
-            <a href="#">41 ()</a><br>
-            <a href="#">42 ()</a><br>
-            <a href="#">43 ()</a><br>
-            <a href="#">44 ()</a><br><br>
+            <h5>Lọc theo size</h5>
+            <a href="#">35 ()</a>
+            <a href="#">36 ()</a>
+            <a href="#">37 ()</a>
+            <a href="#">38 ()</a>
+            <a href="#">39 ()</a>
+            <a href="#">40 ()</a>
+            <a href="#">41 ()</a>
+            <a href="#">42 ()</a>
+            <a href="#">43 ()</a>
+            <a href="#">44 ()</a><br>
         </div>
         <div class="loc-mau">
-            <h5>Lọc theo màu sắc</h5><br>
-            <a href="#">Trắng kem ()</a><br>
-            <a href="#">Cam ()</a><br>
-            <a href="#">Da trời ()</a><br>
-            <a href="#">Đen ()</a><br>
-            <a href="#">Đỏ ()</a><br>
-            <a href="#">Nâu ()</a><br>
-            <a href="#">Navy ()</a><br>
-            <a href="#">Tím ()</a><br>
-            <a href="#">Trắng ()</a><br>
-            <a href="#">Vàng ()</a><br>
-            <a href="#">Xám ()</a><br>
-            <a href="#">Xanh lá ()</a><br>
-            <a href="#">Nhiều màu ()</a><br><br>
+            <h5>Lọc theo màu sắc</h5>
+            <a href="#">Trắng kem ()</a>
+            <a href="#">Cam ()</a>
+            <a href="#">Da trời ()</a>
+            <a href="#">Đen ()</a>
+            <a href="#">Đỏ ()</a>
+            <a href="#">Nâu ()</a>
+            <a href="#">Navy ()</a>
+            <a href="#">Tím ()</a>
+            <a href="#">Trắng ()</a>
+            <a href="#">Vàng ()</a>
+            <a href="#">Xám ()</a>
+            <a href="#">Xanh lá ()</a>
+            <a href="#">Nhiều màu ()</a><br>
         </div>
         <div class="loc-gia">
-            <h5>Lọc theo giá</h5><br>
-            <a href="#">1tr - 2tr ()</a><br>
+            <h5>Lọc theo giá</h5>
+            <a href="#">1tr - 2tr ()</a>
             <a href="#">500K - 999K ()</a>
         </div>
     </div>

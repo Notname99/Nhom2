@@ -5,7 +5,7 @@
     $trang_ht = !empty($_GET['page']) ? $_GET['page'] : 1;
     $offset = ($trang_ht - 1) * $so_sp;
 
-    $query = "SELECT * FROM tb_adidas, tb_yeezy WHERE tb_adidas.masp=tb_yeezy.id ORDER BY tb_adidas.id ASC LIMIT ".$so_sp." OFFSET ".$offset;
+    $query = "SELECT * FROM tb_adidas ORDER BY id ASC LIMIT ".$so_sp." OFFSET ".$offset;
     $mysql = mysqli_query($conn, $query);
 
     $querys = "SELECT * FROM tb_adidas";
@@ -64,6 +64,10 @@
                 <?php } ?>
             </div>
         </div>
+        <div class="clear"></div>
+        <?php
+        include ("Adidas_gt.php");
+        ?>
     </div>
 </div>
 <div class="clear"></div>
