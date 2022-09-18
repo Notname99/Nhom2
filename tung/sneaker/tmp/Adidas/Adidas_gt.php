@@ -46,5 +46,43 @@
     <img src="../../asset/image/Adidas/adidas_5.jpg" alt="">
     <p><i>EQT Support ADV White Turbo</i></p>
     <h2>Adidas NMD</h2>
-
+    <p>NOMAD – kẻ du mục của Adidas đôi giày vẫn chưa có dấu hiệu hạ nhiệt khi lần đầu được giới thiệu vào năm 2017.</p>
+    <p>Vẫn những chất liệu quen thuộc như Boost, PrimeKnit, Cage nhựa nhưng với NMD bạn lại có được một thiết kế hoàn toàn khác biệt.</p>
+    <p>Cùng điểm qua những phối màu và các phiên bản của Adidas NMD tại dienlucsneaker.com</p>
+    <img src="../../asset/image/Adidas/adidas_6.jpg" alt="">
+    <p><i>NMD R1 Grey</i></p>
+    <h2>Adidas Prophere</h2>
+    <p>Thiết kế thoải mái, cảm giác mang êm ái và hiệu năng mạnh mẽ là những tính từ để nói về đôi Adidas Prophere.</p>
+    <p>Đôi giày đã và đang trở thành biểu tượng của các tín đồ Adidas nói chung hay các bạn trẻ yêu thích Streetwear nói riêng.</p>
+    <p>Cùng điểm qua một vài colorway (phối màu) của Adidas Prophere tại SaigonSnaeker.com ngay nhé.</p>
+    <img src="../../asset/image/Adidas/Adidas-Prophere-Triple-White.jpg" alt="">
+    <p><i>Adidas Prophere Triple White</i></p>
+    <img src="../../asset/image/Adidas/adidas_7.jpg" alt="">
+    <p><i>Adidas Prophere Triple White</i></p>
+    <img src="../../asset/image/Adidas/adidas_8.jpg" alt="">
+    <p><i>Adidas Prophere Grey Solar Red</i></p>
+    <h2>Adidas Stan Smith</h2>
+    <p>Với Stan Smith chắc hẳn không có quá nhiều điều nói về đôi Sneaker mang tính biểu tượng này nữa.</p>
+    <p>Nếu bạn yêu thích sự tối giản và tính iconic thì Stan Smith tại SaigonSneaker.com luôn sẵn sàng trên kệ để bạn “rinh” về.</p>
+    <img src="../../asset/image/Adidas/adidas_9.jpg" alt="">
+    <p><i>Adidas Stan Smith Triple White</i></p>
+    <img src="../../asset/image/Adidas/adidas_10.jpg" alt="">
+    <p><i>Adidas Stan Smith Fairway</i></p>
+    <h2>Adidas Superstar</h2>
+    <p>Một đôi giày biểu tượng khác của Adidas với thiết kế mũi sò đặc trưng đi qua hàng thập kỷ. Với thiết kế của Adidas SuperStar bạn có thể thoải mái mix & match với rất rất nhiều trang phục mà bạn yêu thích.</p>
+    <img src="../../asset/image/Adidas/adidas_11.jpg" alt="">
+    <p><i>Adidas SuperStar với phối màu OG</i></p>
+    <h2>Giày Adidas Yeezy</h2>
+    <p>Adidas Yeezy chắc chắn không còn xa lạ gì với chúng ta nữa rồi.</p>
+    <p>Hiệu ứng từ đôi giày mang lại vượt ngoài sức tưởng tượng của chúng ta, các group, team hay cộng đồng chơi Yeezy xuất hiện nhiều hơn tại Việt Nam vì thiết kế và sự “hype” của Yeezy mang lại.</p>
+    <p>Cùng nhìn lại một số phối màu đẹp nhất của Yeezy tại SaingonSneaker.com nhé</p>
+    <img src="../../asset/image/Adidas/Yeezy-Boost-700-Wave-Runner.jpg" alt="">
+    <p><i>Yeezy Boost 700 Wave Runner</i></p>
+    <img src="../../asset/image/Adidas/Yeezy-Boost-350-V2-Static-Black.jpg" alt="">
+    <p><i>Yeezy Boost 350 V2 Static Black</i></p>
+    <img src="../../asset/image/Adidas/Yeezy-Boost-350-V2-Zebra.jpg" alt="">
+    <p><i>Yeezy Boost 350 V2 Zebra</i></p>
+    <p>Hiện nay, SaigonSneaker.com có hầu hết các dòng sản phẩm với kiểu dáng nổi bật của thương hiệu nổi tiếng Adidas.</p>
+    <p>Hơn thế nữa, bạn có thể sẽ tìm thấy những đôi sneaker với màu sắc độc đáo duy nhất chỉ có ở SaigonSneaker.com với mức giá vô cùng ưu đãi cùng chính sách hậu mãi đa dạng.</p>
+    <p>Các bạn còn chần chờ gì mà không ghé qua và chọn cho mình một đôi thật phù hợp? Tất cả các mẫu mã từ <b><a href="../../index.php?quanly=Adidas" target="_blank">giày Adidas nam</a></b> và <b><a href="../../index.php?quanly=Adidas" target="_blank">giày Adidas nữ</a></b> đều đang có sẵn trên website dienlucsneaker.com.</p>
 </div>

@@ -27,17 +27,17 @@
         </div>
         <div class="main-adidas">
             <ul class="product">
-                <?php while ($row = mysqli_fetch_array($mysql)) { ?>
+                <?php $id=0; $chitiet=0; while ($row = mysqli_fetch_array($mysql)) { $id++; $chitiet++?>
                 <li>
                     <div class="product-item">
                         <div class="product-top">
-                            <a href="#" class="product-thumb">
+                            <a href="../../index.php?quanly=<?=$chitiet?>&id=<?=$id?>" class="product-thumb">
                                 <img src=<?=$row['img']?> alt="">
                             </a>
                         </div>
                         <div class="product-info">
-                            <a href="#" class="product-name"><?=$row['ten']?></a>
-                            <a href="#" class="product-price"><?=number_format($row['gia'],0,",",".")?><samp>đ</samp></a>
+                            <a href="../../index.php?quanly=<?=$chitiet?>&id=<?=$id?>" class="product-name"><?=$row['ten']?></a>
+                            <a href="../../index.php?quanly=<?=$chitiet?>&id=<?=$id?>" class="product-price"><?=number_format($row['gia'],0,",",".")?><samp>đ</samp></a>
                         </div>
                     </div>
                 </li>
@@ -47,12 +47,12 @@
                 <?php if ($trang_ht > 1) {
                     $prev_page = $trang_ht - 1;
                 ?>
-                    <a href="../../index.php?quanly=page1&per_page=<?=$so_sp?>&page=<?=$prev_page?>" class="page-item"><-</a>
+                    <a href="../../index.php?quanly=Adidas&id=1&per_page=<?=$so_sp?>&page=<?=$prev_page?>" class="page-item"><-</a>
                 <?php } ?>
                 <?php for($num = 1; $num <= $so_trang; $num++) { ?>
                     <?php if ($num != $trang_ht) { ?>
                         <?php if ($num > $trang_ht - 1 && $num < $trang_ht + 2) { ?>
-                            <a class="page-item" href="../../index.php?quanly=page1&per_page=<?=$so_sp?>&page=<?=$num?>"><?=$num?></a>
+                            <a class="page-item" href="../../index.php?quanly=Adidas&id=1&per_page=<?=$so_sp?>&page=<?=$num?>"><?=$num?></a>
                         <?php } ?>
                     <?php } else { ?>
                         <strong class="dam page-item"><?=$num?></strong>
@@ -60,7 +60,7 @@
                 <?php } ?>
                 <?php if ($trang_ht < $so_trang - 1) {
                     $next_page = $trang_ht + 1;?>
-                    <a href="../../index.php?quanly=page1&per_page=<?=$so_sp?>&page=<?=$next_page?>" class="page-item">-></a>
+                    <a href="../../index.php?quanly=Adidas&id=1&per_page=<?=$so_sp?>&page=<?=$next_page?>" class="page-item">-></a>
                 <?php } ?>
             </div>
         </div>

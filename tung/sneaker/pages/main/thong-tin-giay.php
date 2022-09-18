@@ -1,0 +1,1 @@
+<p>Thông tin giày</p>

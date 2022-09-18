@@ -42,7 +42,7 @@
         <ul class="list-ul">
             <li class="list-li">
                 <div class="dropdown">
-                    <a class="dropbtn" href="../../index.php?quanly=Adidas&id=1"> Adidas </a>
+                    <a class="dropbtn" href="../../index.php?quanly=Adidas&id=1&per_page=12&page=1"> Adidas </a>
                     <div class="dropdown-content">
                         <a href="../../index.php?quanly=SuperStar&id=1">Adidas SuperStar</a>
                         <a href="../../index.php?quanly=Stan-Smith&id=2">Adidas Stan Smith</a>
@@ -53,18 +53,18 @@
                         <a href="../../index.php?quanly=Falcon&id=7">Adidas Falcon</a>
                         <a href="../../index.php?quanly=Yeezy&id=8">Adidas Yeezy</a>
                     </div>
-                    </div>
+                </div>
             </li>
             <li class="list-li">
                 <div class="dropdown">
-                    <a class="dropbtn" href="../../index.php?quanly=Nike&id=2"> Nike </a>
+                    <a class="dropbtn" href="../../index.php?quanly=Nike&id=2&per_page=12&page=1"> Nike </a>
                     <div class="dropdown-content">
                         <a href="../../index.php?quanly=Air-Force-1&id=1">Nike Air Force 1</a>
                         <a href="../../index.php?quanly=Jordan&id=2">Nike Jordan</a>
                         <a href="../../index.php?quanly=Air-Max&id=3">Nike Air Max</a>
                         <a href="../../index.php?quanly=M2K-Tekno&id=4">Nike M2K Tekno</a>
                     </div>
-                    </div>
+                </div>
             </li>
             <li class="list-li">
                 <div class="dropdown">
@@ -74,29 +74,29 @@
                         <a href="#">Link 2</a>
                         <a href="#">Link 3</a>
                     </div>
-                    </div>
+                </div>
             </li>
             <li class="list-li">
                 <div class="dropdown">
                     <a class="dropbtn" href="#"> MLB </a>
-                    <div class="dropdown-content" aria-labelledby="dropdownMenuLink">
+                    <!-- <div class="dropdown-content" aria-labelledby="dropdownMenuLink">
                         <a href="#">Adidas SuperStar</a>
                         <a href="#">Adidas Stan Smith</a>
                         <a href="#">Adidas Alphabounce</a>
                         <a href="#">Adidas NMD</a>
-                    </div>
-                    </div>
+                    </div> -->
+                </div>
             </li>
             <li class="list-li">
                 <div class="dropdown">
                     <a class="dropbtn" href="#"> Balenciaga </a>
-                    <div class="dropdown-content" aria-labelledby="dropdownMenuLink">
+                    <!-- <div class="dropdown-content" aria-labelledby="dropdownMenuLink">
                         <a href="#">Adidas SuperStar</a>
                         <a href="#">Adidas Stan Smith</a>
                         <a href="#">Adidas Alphabounce</a>
                         <a href="#">Adidas NMD</a>
-                    </div>
-                    </div>
+                    </div> -->
+                </div>
             </li>
             <li class="list-li">
                 <div class="dropdown">

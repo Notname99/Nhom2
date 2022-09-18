@@ -1,0 +1,5 @@
+<div class="gioi_thieu">
+    <p><b>Sneaker</b> hay <b>giày sneaker</b> là một tên gọi khác của “giày thể thao” dùng để chỉ các loại giày phục vụ cho vận động thể thao. Tuy nhiên, hiện nay sneaker thường được dùng để chỉ những đôi giày thể thao được mang cho hoạt động hằng ngày.</p>
+    <p>Sneakers luôn là sự lựa chọn hoàn hảo cho những ai yêu thích sự thoải mái, trẻ trung, năng động mà nó mang lại. Có lẽ vì vậy mà có những đôi giày sneaker đã ra đời từ rất lâu nhưng nay vẫn luôn chiếm một vị trí “ưu tiên” trong tủ giày của nhiều bạn trẻ.</p>
+    <p>Sneakers và phong cách streetstyle được tôn sùng như một “cặp đôi hoàn hảo” trong giới fashionista trẻ. Những đôi giày Sneakers mang đến cảm giác bình dân (casual), ít trang trọng (informal) nên hầu như có thể xuất hiện trong các dịp khác nhau như một tổng thể trong bộ trang phục của các bạn trẻ, đặc biệt ở độ tuổi 18 đến dưới 30.</p>
+</div>

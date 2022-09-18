@@ -18,23 +18,27 @@
         </div>
         <div class="main-adidas">
             <ul class="product">
-                <?php while ($row = mysqli_fetch_array($mysql)) { ?>
+                <?php $id=0; $chitiet=0; while ($row = mysqli_fetch_array($mysql)) { $id++; $chitiet++;?>
                 <li>
                     <div class="product-item">
                         <div class="product-top">
-                            <a href="#" class="product-thumb">
+                            <a href="../../../../index.php?quanly=<?=$chitiet?>&id=<?=$id?>" class="product-thumb">
                                 <img src=<?=$row['img']?> alt="">
                             </a>
                         </div>
                         <div class="product-info">
-                            <a href="#" class="product-name"><?=$row['ten']?></a>
-                            <a href="#" class="product-price"><?=number_format($row['gia'],0,",",".")?><samp>đ</samp></a>
+                            <a href="../../../../index.php?quanly=<?=$chitiet?>&id=<?=$id?>" class="product-name"><?=$row['ten']?></a>
+                            <a href="../../../../index.php?quanly=<?=$chitiet?>&id=<?=$id?>" class="product-price"><?=number_format($row['gia'],0,",",".")?><samp>đ</samp></a>
                         </div>
                     </div>
                 </li>
                 <?php } ?>
             </ul>
         </div>
+        <div class="clear"></div>
+        <?php
+        include ("SuperStar_gt.php");
+        ?>
     </div>
 </div>
 <div class="clear"></div>
