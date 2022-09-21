@@ -31,7 +31,8 @@ CREATE TABLE `tb_adidas` (
   `id` int(11) NOT NULL,
   `img` char(100) NOT NULL,
   `ten` varchar(255) NOT NULL,
-  `gia` int(20) NOT NULL
+  `gia` int(20) NOT NULL,
+  `ma_thuonghieu` int(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -141,16 +142,16 @@ CREATE TABLE `tb_size` (
 --
 
 INSERT INTO `tb_size` (`id`, `size`) VALUES
-(11, 35),
-(12, 36),
-(13, 37),
-(14, 38),
-(15, 39),
-(16, 40),
-(17, 41),
-(18, 42),
-(19, 43),
-(20, 44);
+(1, 35),
+(2, 36),
+(3, 37),
+(4, 38),
+(5, 39),
+(6, 40),
+(7, 41),
+(8, 42),
+(9, 43),
+(10, 44);
 
 --
 -- Indexes for dumped tables

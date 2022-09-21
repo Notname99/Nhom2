@@ -1,16 +1,9 @@
 <div class="main">
     <?php
-    include './admincp/config/connect_db.php';
-
     if (isset($_GET['quanly'])){
         $tam = $_GET['quanly'];
     }else{
         $tam = '';
-    }
-    if (isset($_GET['page'])){
-        $page = $_GET['page'];
-    }else{
-        $page = '';
     }
     if ($tam=='Adidas'){
         include("./pages/loc.php");
@@ -68,44 +61,16 @@
         include("./pages/loc.php");
         include("./tmp/Adidas/Adidas-index.php");
     }
+    elseif ($tam=='mlb'){
+        include("./pages/loc.php");
+        include("./tmp/MLB/mlb_index.php");
+    }
+    elseif ($tam=='balenciaga'){
+        include("./pages/loc.php");
+        include("./tmp/MLB/balenciaga_index.php");
+    }
     else{
         include("./pages/main/index.php");
-    }
-
-    $chitiet = 0;
-    if ($page==1){
-        for ($i = 1; $i <=  12; $i++) {
-            $query = "SELECT * FROM tb_adidas WHERE id=$i ORDER BY id ASC";
-            $mysql = mysqli_query($conn, $query);
-            while ($row = mysqli_fetch_array($mysql)){
-                $chitiet++;
-                if ($tam==$chitiet){
-                    include("./pages/main/chitiet.php");
-                }
-            }
-        }
-    }elseif ($page==2){
-        for ($i = 13; $i <=  24; $i++) {
-            $query = "SELECT * FROM tb_adidas WHERE id=$i ORDER BY id ASC";
-            $mysql = mysqli_query($conn, $query);
-            while ($row = mysqli_fetch_array($mysql)){
-                $chitiet++;
-                if ($tam==$chitiet){
-                    include("./pages/main/chitiet.php");
-                }
-            }
-        }
-    }else{
-        for ($i = 25; $i <=  29; $i++) {
-            $query = "SELECT * FROM tb_adidas WHERE id=$i ORDER BY id ASC";
-            $mysql = mysqli_query($conn, $query);
-            while ($row = mysqli_fetch_array($mysql)){
-                $chitiet++;
-                if ($tam==$chitiet){
-                    include("./pages/main/chitiet.php");
-                }
-            }
-        }
     }
     ?>
 </div>
