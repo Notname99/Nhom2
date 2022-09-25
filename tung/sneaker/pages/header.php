@@ -59,10 +59,14 @@
                 <div class="dropdown">
                     <a class="dropbtn" href="../../index.php?quanly=Nike&id=2&per_page=12&page=1"> Nike </a>
                     <div class="dropdown-content">
-                        <a href="../../index.php?quanly=Air-Force-1&id=1">Nike Air Force 1</a>
+                        <a href="../../index.php?quanly=AirForce1&id=1">Nike Air Force 1</a>
                         <a href="../../index.php?quanly=Jordan&id=2">Nike Jordan</a>
-                        <a href="../../index.php?quanly=Air-Max&id=3">Nike Air Max</a>
-                        <a href="../../index.php?quanly=M2K-Tekno&id=4">Nike M2K Tekno</a>
+                        <a href="../../index.php?quanly=AirMax&id=3">Nike Air Max</a>
+                        <a href="../../index.php?quanly=AirMax97&id=4">Nike Air Max 97</a>
+                        <a href="../../index.php?quanly=AirMax270&id=5">Nike Air Max 270</a>
+                        <a href="../../index.php?quanly=AirMax90&id=6">Nike Air Max 90</a>
+                        <a href="../../index.php?quanly=M2KTekno&id=7">Nike M2K Tekno</a>
+                        <a href="../../index.php?quanly=Uptempo&id=8">Nike Uptempo</a>
                     </div>
                 </div>
             </li>

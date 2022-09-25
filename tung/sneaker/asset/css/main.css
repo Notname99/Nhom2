@@ -146,13 +146,13 @@ body{
     font-size: 16px;
     border: none;
     text-decoration: none;
-    transition: 0.5s ease-in-out;
+    transition: 0.25s ease-in-out;
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
-    transition: 0.5s ease-in-out;
+    transition: 0.25s ease-in-out;
 }
 
 .dropdown-content {
@@ -162,7 +162,7 @@ body{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    transition: 0.5s ease-in-out;
+    transition: 0.25s ease-in-out;
 }
 
 .dropdown-content a {
@@ -170,7 +170,7 @@ body{
     padding: 12px 80px;
     text-decoration: none;
     display: block;
-    transition: 0.5s ease-in-out;
+    transition: 0.25s ease-in-out;
 }
 
 .dropdown-content a:hover {
@@ -188,9 +188,10 @@ body{
     background: #ffffff;
 }
 h1.thuong_hieu{
-    margin: 5px 25px;
+    margin: 10px 25px;
+    size: 40px;
 }
-.loc{
+/* .loc{
     width: 180px;
     height: 100%;
     margin: 25px 25px;
@@ -203,7 +204,7 @@ h1.thuong_hieu{
 }
 .loc a:hover{
     color: #000000;
-}
+} */
 .dropdowns{
     background: #ECECEC;
     float: right;
@@ -231,13 +232,14 @@ h1.thuong_hieu{
 }
 .main .main-adidas{
     float: left;
-    width: 1160px;
+    width: 100%;
     height: auto;
 }
 ul.product{
     display: flex;
     flex-wrap: wrap;
     /* justify-content: space-between; */
+    margin-left: -25px;
 }
 ul.product li{
     flex-basis: 25%;
@@ -250,12 +252,42 @@ ul.product li{
 ul.product li img{
     max-width: 100%;
     height: auto;
+    border-radius: 5px;
+}
+ul.product li .product-top{
+    position: relative;
+    overflow: hidden;
+}
+ul.product li .product-top a.carts{
+    text-decoration: none;
+    size: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    border: 1px solid #446084;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 10px 0;
+    background: #446084;
+    position: absolute;
+    width: 100%;
+    bottom: -50px;
+    transition: 0.25s ease-in-out;
+    opacity: 0.9;
+}
+ul.product li:hover a.carts{
+    bottom: 0px;
 }
 ul.product li .product-info a{
     display: block;
     text-decoration: none;
     color: #000000;
     margin-bottom: 5px;
+    size: 40px;
+}
+ul.product li .product-info a.product-price{
+    font-weight: 600;
 }
 ul.footer-class{
     display: flex;
@@ -326,6 +358,7 @@ a.ttch{
     color: #000000;
     padding: 5px 10px;
     border: 1px solid #A9A9A9;
+    border-radius: 5px;
 }
 .number_page a.page-item:hover{
     color: #ffffff;
@@ -336,6 +369,7 @@ a.ttch{
     color: #ffffff;
     padding: 5px 10px;
     border: 1px solid #A9A9A9;
+    border-radius: 5px;
 }
 .gioi_thieu{
     width: 60%;
@@ -353,82 +387,6 @@ a.ttch{
 .gioi_thieu a:hover{
     color: #000000;
 }
-/* chi tiết sp */
-.main-chitiet{
-    width: 100%;
-    height: auto;
-    box-sizing: border-box;
-}
-.image{
-    width: 35%;
-    height: auto;
-    float: left;
-}
-.image .img-main{
-    padding: 15px 15px;
-}
-.image .img-main img{
-    max-width: 100%;
-    height: auto;
-    transition: 0.5 ease-in-out;
-}
-.main-info{
-    float: left;
-    width: 60%;
-    height: auto;
-    margin-top: 15px;
-    margin-left: 70px;
-}
-.main-info .row{
-    width: 100%;
-    height: auto;
-}
-.row .dropdownn{
-    width: 100%;
-    height: 50px;
-    margin-bottom: 60px;
-}
-.row .dropdownn p{
-    float: left;
-    margin-right: 100px;
-    margin-top: 15px;
-}
-.row .dropdownn .gan{
-    background: transparent;
-}
-.row .dropdownn .gan select{
-    width: 50%;
-    height: 50px;
-    border: 1px solid #000000;
-    border-radius: 5px;
-}
-.row .gio-hang{
-    width: 100%;
-    height: 60px;
-    margin-bottom: 40px;
-}
-.row .gio-hang input.number{
-    width: 10%;
-    height: 100%;
-    font-size: 35px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid #000000;
-    border-radius: 5px;
-}
-.row .gio-hang button.submit{
-    width: 89%;
-    height: 100%;
-    color: #ffffff;
-    background: green;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    transition: 0.25s ease-in-out;
-}
-.row .gio-hang button.submit:hover{
-    background: #015e0c;
-}
 ul.items{
     display: flex;
     flex-wrap: wrap;
@@ -439,34 +397,6 @@ ul.items{
     height: auto;
     margin: auto;
     margin-bottom: 60px;
-}
-ul.items li{
-    list-style: none;
-    padding: 15px 29px;
-    box-sizing: border-box;
-    margin-bottom: -20px;
-    margin-left: -20px;
-}
-ul.items li p{
-    font-size: 14px;
-    margin-top: -10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.color{
-    width: 100%;
-    height: auto;
-}
-.color .color-item{
-    width: 10%;
-    height: auto;
-    float: left;
-    padding: 5px 10px;
-    box-sizing: border-box;
-
-}
-.color .color-item img{
-    width: 100%;
-    height: auto;
 }
 .thong-tin {
     margin-left: 100px;

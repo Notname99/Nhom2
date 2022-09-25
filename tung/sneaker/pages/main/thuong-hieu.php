@@ -1,3 +1,4 @@
+<div class="cach"></div>
 <?php
     if ($tam=='Adidas' || $tam=='page1' || $tam=='page2' || $tam=='page3'){
         $thuong_hieu = 'Adidas';
@@ -29,17 +30,32 @@
     }elseif ($tam=='Nike'){
         $thuong_hieu = 'Nike';
         $nhan_hieu = 'Nike';
-    }elseif ($tam=='Air-Force-1'){
+    }elseif ($tam=='AirForce1'){
         $thuong_hieu = 'Nike Air Force 1';
         $nhan_hieu = 'Nike';
     }elseif ($tam=='Jordan'){
         $thuong_hieu = 'Nike Jordan';
         $nhan_hieu = 'Nike';
-    }elseif ($tam=='Air-Max'){
+    }elseif ($tam=='AirMax'){
         $thuong_hieu = 'Nike Air Max';
         $nhan_hieu = 'Nike';
-    }elseif ($tam=='M2K-Tekno'){
+    }elseif ($tam=='AirMax97'){
+        $thuong_hieu = 'Nike Air Max 97';
+        $nhan_hieu = 'Nike';
+    }elseif ($tam=='AirMax270'){
+        $thuong_hieu = 'Nike Air Max 270';
+        $nhan_hieu = 'Nike';
+    }elseif ($tam=='AirMax90'){
+        $thuong_hieu = 'Nike Air Max 90';
+        $nhan_hieu = 'Nike';
+    }elseif ($tam=='M2KTekno'){
         $thuong_hieu = 'Nike M2K Tekno';
         $nhan_hieu = 'Nike';
+    }elseif ($tam=='Uptempo'){
+        $thuong_hieu = 'Nike MUptempo';
+        $nhan_hieu = 'Nike';
+    }else {
+        $thuong_hieu = 'Trang chủ';
     }
 ?>
+<h1 class="thuong_hieu"><?=$thuong_hieu?></h1>
