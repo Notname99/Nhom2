@@ -18,16 +18,16 @@
                         <div class="product-item">
                             <div class="product-top">
                                 <img src=<?=$row['img']?> alt="">
-                                <a href="#" class="carts"><i class="bi bi-cart4"></i> Thêm vào giỏ hàng</a>
+                                <a href="../index.php?quanly=cart" class="carts"><i class="bi bi-cart4"></i> Thêm vào giỏ hàng</a>
                             </div>
                             <div class="product-info">
-                                <!-- <div class="star">
+                                <div class="star">
                                     <a href="../../index.php?quanly=1" class="star-item"><i class="bi bi-star-fill"></i></a>
                                     <a href="../../index.php?quanly=2" class="star-item"><i class="bi bi-star-fill"></i></a>
                                     <a href="../../index.php?quanly=3" class="star-item"><i class="bi bi-star-fill"></i></a>
                                     <a href="../../index.php?quanly=4" class="star-item"><i class="bi bi-star"></i></a>
                                     <a href="../../index.php?quanly=5" class="star-item"><i class="bi bi-star"></i></a>
-                                </div> -->
+                                </div>
                                 <a href="#>" class="product-name"><?=$row['ten']?></a>
                                 <a href="#" class="product-price"><?=number_format($row['gia'],0,",",".")?><samp>đ</samp></a>
                             </div>

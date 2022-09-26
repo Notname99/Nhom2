@@ -265,16 +265,16 @@ ul.product li .product-top a.carts{
     color: #ffffff;
     text-align: center;
     display: block;
-    border: 1px solid #446084;
+    border: 1px solid #844481;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     padding: 10px 0;
-    background: #446084;
+    background: #844481;
     position: absolute;
     width: 100%;
     bottom: -50px;
     transition: 0.25s ease-in-out;
-    opacity: 0.9;
+    opacity: 0.8;
 }
 ul.product li:hover a.carts{
     bottom: 0px;
@@ -285,6 +285,13 @@ ul.product li .product-info a{
     color: #000000;
     margin-bottom: 5px;
     size: 40px;
+}
+ul.product li .product-info .star{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul.product li .product-info .star a.star-item{
+    color: #ff7b00;
 }
 ul.product li .product-info a.product-price{
     font-weight: 600;

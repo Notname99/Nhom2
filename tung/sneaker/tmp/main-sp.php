@@ -7,6 +7,7 @@
 
     if ($tam=='Adidas') {
         $data = 'Adidas';
+        include("./pages/main/thuong-hieu.php");
         $query = "SELECT * FROM tb_adidas ORDER BY id ASC LIMIT ".$so_sp." OFFSET ".$offset;
         $mysql = mysqli_query($conn, $query);
 
@@ -88,10 +89,7 @@
         include("./pages/main/thuong-hieu.php");
         $query = "SELECT * FROM `tb_nike` WHERE id=13 OR id=14 ORDER BY id ASC";
         $mysql = mysqli_query($conn, $query);
+    }else {
+        include("./pages/main/thuong-hieu.php");
     }
-
-    // $querys = "SELECT * FROM tb_adidas";
-    // $tong = mysqli_query($conn, $querys);
-    // $tong = $tong->num_rows;
-    // $so_trang = ceil($tong / $so_sp);
 ?>

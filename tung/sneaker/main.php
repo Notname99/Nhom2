@@ -11,10 +11,11 @@
     }else{
         $page = '';
     }
-    if ($tam=='Adidas'){
-        include("./pages/main/thuong-hieu.php");
-        include("./tmp/index-sp.php");
-    }elseif ($tam=='diachi'){
+    // if ($tam=='Adidas'){
+    //     include("./pages/main/thuong-hieu.php");
+    //     include("./tmp/index-sp.php");
+    // }else
+    if ($tam=='diachi'){
         include("./pages/main/diachi.php");
     }elseif ($tam=='cart'){
         include("./pages/main/cart.php");

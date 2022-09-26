@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 25, 2022 at 05:13 PM
+-- Generation Time: Sep 26, 2022 at 10:22 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -68,49 +68,6 @@ INSERT INTO `tb_adidas` (`id`, `img`, `ten`, `gia`) VALUES
 (27, '../../asset/image/Adidas/Adidas-Superstar-Running-White.jpg', 'Adidas Superstar Running White', 895000),
 (28, '../../asset/image/Adidas/Adidas-Stan-Smith-Fairway.jpg', 'Adidas Stan Smith Fairway', 895000),
 (29, '../../asset/image/Adidas/Adidas-Prophere-Grey-Solar-Red.jpg', 'Adidas Prophere Grey Solar Red', 1195000);
-
--- --------------------------------------------------------
-
---
--- Table structure for table `tb_gioitinh`
---
-
-CREATE TABLE `tb_gioitinh` (
-  `id` int(11) NOT NULL,
-  `gioi_tinh` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `tb_gioitinh`
---
-
-INSERT INTO `tb_gioitinh` (`id`, `gioi_tinh`) VALUES
-(1, 'Nam'),
-(2, 'Nữ');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `tb_mau`
---
-
-CREATE TABLE `tb_mau` (
-  `id` int(11) NOT NULL,
-  `mau_sac` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `tb_mau`
---
-
-INSERT INTO `tb_mau` (`id`, `mau_sac`) VALUES
-(1, 'Trắng'),
-(2, 'Xám'),
-(3, 'Navy'),
-(4, 'Nâu'),
-(5, 'Đen'),
-(6, 'Nhiều màu'),
-(7, 'Da Trời');
 
 -- --------------------------------------------------------
 
@@ -191,18 +148,6 @@ ALTER TABLE `tb_adidas`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `tb_gioitinh`
---
-ALTER TABLE `tb_gioitinh`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `tb_mau`
---
-ALTER TABLE `tb_mau`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indexes for table `tb_nike`
 --
 ALTER TABLE `tb_nike`
@@ -223,18 +168,6 @@ ALTER TABLE `tb_size`
 --
 ALTER TABLE `tb_adidas`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
-
---
--- AUTO_INCREMENT for table `tb_gioitinh`
---
-ALTER TABLE `tb_gioitinh`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
-
---
--- AUTO_INCREMENT for table `tb_mau`
---
-ALTER TABLE `tb_mau`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `tb_nike`

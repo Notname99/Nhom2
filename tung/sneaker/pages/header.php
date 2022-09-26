@@ -32,7 +32,7 @@
             <i class="bi bi-person-circle"></i>
         </div>
         <div class="bnt">
-            <form method="POST" action="../../pages/login/login.php">
+            <form method="POST" action="../admincp/login/login.php">
                 <input type="submit" class="login-bnt" value="Đăng nhập">
             </form>
         </div>
