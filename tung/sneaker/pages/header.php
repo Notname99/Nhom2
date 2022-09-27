@@ -4,7 +4,7 @@
     </div>
     <div class="search">
         <div class="search-imgs">
-            <i class="bi bi-search"></i>
+            <img src="../asset/image/logo/search.svg" alt="bootstrap">
         </div>
         <div class="search-img">
             <form method="POST" action="">
@@ -14,7 +14,7 @@
     </div>
     <div class="map">
         <div class="img">
-            <i class="bi bi-geo-alt-fill"></i>
+            <img src="../asset/image/logo/geo-alt-fill.svg" alt="bootstrap">
             <a href="../../index.php?quanly=diachi">235 Hoàng Quốc Việt, Cổ Nhuế, Bắc Từ Liêm, Hà Nội</a>
         </div>
     </div>
@@ -22,10 +22,10 @@
         <p>Hotline <br/>
             0438592183
         </p>
-        <div class="zalo"><a href="../../index.php?quanly=lienhe" target="_blank"><img src="../../asset/image/logo/zalo.png" alt=""></a></div>
+        <div class="zalo"><a href="https://zalo.me/" target="_blank"><img src="../../asset/image/logo/zalo.png" alt=""></a></div>
     </div>
     <div class="cart">
-        <a href="../../index.php?quanly=cart"><i class="bi bi-cart4"></i></a>
+        <a href="../../index.php?quanly=cart"><img src="../asset/image/logo/cart4.svg" alt="bootstrap" width="30" height="30"></a>
     </div>
     <div class="login">
         <div class="people">

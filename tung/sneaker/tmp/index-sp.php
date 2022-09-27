@@ -2,7 +2,7 @@
     include 'main-sp.php';
 ?>
 
-<div class="wrapper">
+<!-- <div class="wrapper"> -->
     <div class="main">
         <div class="dropdowns">
             <select name="" id="">
@@ -59,5 +59,5 @@
         </div>
         <div class="clear"></div>
     </div>
-</div>
+<!-- </div> -->
 <div class="clear"></div>

@@ -16,10 +16,11 @@ body{
     background: #fff;
 }
 .wrapper{
-    width: 1400px;
+    width: 75%;
     margin: auto;
     background: #f8f8f8;
 }
+/* header */
 .wrapper .header{
     margin: 25px 25px;
 }
@@ -29,6 +30,7 @@ body{
     height: 50px;
     border: 1px solid #000;
     border-radius: 5px;
+    margin-bottom: 15px;
 }
 .logo a{
     margin-left: 15px;
@@ -38,10 +40,11 @@ body{
 .search{
     float: left;
     margin-left: 125px;
-    width: 360px;
+    width: 550px;
     height: 50px;
     border: 1px solid #eceeef;
     border-radius: 5px;
+    margin-bottom: 15px;
 }
 .search .search-imgs{
     float: left;
@@ -54,7 +57,7 @@ body{
     background: #eceeef;
 }
 .search .search-img .search-input{
-    width: 326px;
+    width: 94%;
     height: 49px;
     border: 1px solid transparent;
     border-radius: 5px;
@@ -65,6 +68,7 @@ body{
     width: 215px;
     height: 50px;
     margin-left: 60px;
+    margin-bottom: 15px;
 }
 .img a{
     color: #000;
@@ -75,6 +79,7 @@ body{
     height: 50px;
     float: left;
     margin-left: 80px;
+    margin-bottom: 15px;
 }
 .hotline p{
     float: left;
@@ -95,19 +100,22 @@ body{
 .cart{
     float: left;
     width: 50px;
-    height: 50px;
-    margin: 15px 15px;
+    height: auto;
+    margin-top: 10px;
+    /* margin-left: 200px; */
+    margin-bottom: 15px;
 }
 .cart a{
     color: #000000
 }
 .login{
-    float: left;
+    float: right;
     margin-left: 5px;
     width: 125px;
     height: 50px;
     border: 1px solid #eceeef;
     border-radius: 5px;
+    margin-bottom: 15px;
 }
 .login .people{
     float: left;
@@ -132,12 +140,13 @@ body{
     float: left;
     text-align: center;
     list-style: none;
-    width: 16%;
+    width: 16.66666666666667%;
+    height: 50px;
     transition: 0.5s ease-in-out;
 }
 .list-ul .list-li:hover{
     background: #ddd;
-    width: 210px;
+    width: 16.66666666666667%;
     height: 50px;
 }
 .dropbtn {
@@ -187,6 +196,7 @@ body{
     height: 30px;
     background: #ffffff;
 }
+/* thương hiệu */
 h1.thuong_hieu{
     margin: 10px 25px;
     size: 40px;
@@ -230,6 +240,7 @@ h1.thuong_hieu{
     border-radius: 5px;
     border: 2px solid #000000;
 }
+/* main */
 .main .main-adidas{
     float: left;
     width: 100%;
@@ -239,7 +250,8 @@ ul.product{
     display: flex;
     flex-wrap: wrap;
     /* justify-content: space-between; */
-    margin-left: -25px;
+    margin-left: -20px;
+    margin-right: 10px;
 }
 ul.product li{
     flex-basis: 25%;
@@ -296,6 +308,7 @@ ul.product li .product-info .star a.star-item{
 ul.product li .product-info a.product-price{
     font-weight: 600;
 }
+/* footer */
 ul.footer-class{
     display: flex;
     flex-wrap: wrap;
@@ -313,6 +326,7 @@ ul.footer-class li .item{
     width: 30px;
     height: 50px;
     float: left;
+    margin-top: 10px;
 }
 ul.footer-class1{
     display: flex;
@@ -356,9 +370,12 @@ a.ttch{
     color: #000000;
     padding: 10px 20px;
     border: 1px solid #000000;
+    border-radius: 5px;
 }
+/* số trang */
 .number_page{
     text-align: end;
+    margin-right: 15px;
 }
 .number_page a.page-item{
     text-decoration: none;
@@ -416,4 +433,79 @@ ul.items{
 }
 .thong-tin a:hover{
     color: #ffffff;
+}
+/* thông tin liên hệ */
+.diachi{
+    padding: 30px 60px;
+    width: 100%;
+    height: auto;
+}
+.diachi h1{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 90px;
+}
+.diachi img{
+    float: left;
+}
+.diachi h2{
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.diachi ul.ttct li{
+    clear: both;
+    margin-left: 80px;
+}
+.diachi ul.ttct li span{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.diachi ul.tg{
+    clear: both;
+    margin-left: 80px;
+}
+.diachi ul.tg strong{
+    font-size: 20px;
+    font-weight: 500;
+}
+.diachi ul.tg li{
+    margin-left: 50px;
+}
+.diachi button{
+    width: 150px;
+    height: 45px;
+    margin-left: 35px;
+    background: #00ffff;
+    margin-bottom: 10px;
+    border: 1px solid #00ffff;
+    border-radius: 5px;
+    transition: 0.25s ease-in-out;
+}
+.diachi button:hover{
+    background: #02cfcf;
+    border: 1px solid #02cfcf;
+}
+.diachi button a{
+    text-decoration: none;
+    color: #000000;
+    transition: 0.25s ease-in-out;
+}
+.diachi button:hover a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.diachi button img{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.diachi p{
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.diachi .ti{
+    margin-left: 45px;
 }

@@ -13,5 +13,6 @@
     include ("footer.php");
     ?>
     <p>chào mừng đến trang quản trị</p>
+    <a href="../index.php">trang chủ</a>
 </body>
 </html>

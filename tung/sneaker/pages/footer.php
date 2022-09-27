@@ -4,7 +4,7 @@
         <li>
             <div class="footer-class-item">
                 <div class="item">
-                    <i class="bi bi-truck"></i>
+                    <img src="../asset/image/logo/truck.svg" alt="Bootstrap" width="25" height="25">
                 </div>
                 <p>Giao hàng toàn quốc. Giao nhanh khu vực Hà Nội.</p>
             </div>
@@ -12,7 +12,7 @@
         <li>
             <div class="footer-class-item">
                 <div class="item">
-                    <i class="bi bi-boxes"></i>
+                    <img src="../asset/image/logo/boxes.svg" alt="Bootstrap" width="25" height="25">
                 </div>
                 <p>Sản phẩm luôn có sẵn tại cửa hàng. Không phải chờ order.</p>
             </div>
@@ -20,7 +20,7 @@
         <li>
             <div class="footer-class-item">
                 <div class="item">
-                    <i class="bi bi-arrow-counterclockwise"></i>
+                    <img src="../asset/image/logo/arrow-counterclockwise.svg" alt="Bootstrap" width="25" height="25">
                 </div>
                 <p>Mẫu mới update thường xuyên mỗi tháng.</p>
             </div>
@@ -28,7 +28,7 @@
         <li>
             <div class="footer-class-item">
                 <div class="item">
-                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                    <img src="../asset/image/logo/hand-thumbs-up-fill.svg" alt="Bootstrap" width="25" height="25">
                 </div>
                 <p>Đảm bảo chất lượng luôn đứng đầu trên thị trường.</p>
             </div>
@@ -36,7 +36,7 @@
         <li>
             <div class="footer-class-item">
                 <div class="item">
-                    <i class="bi bi-heart-fill"></i>
+                    <img src="../asset/image/logo/heart-fill.svg" alt="Bootstrap" width="25" height="25">
                 </div>
                 <p>Dễ dàng đổi trả nếu không vừa hoặc không hài lòng.</p>
             </div>
@@ -46,32 +46,32 @@
         <li>
             <div class="footer-class1-item">
                 <p class="size">dienlucsneaker.com</p>
-                <p>0438592183</p>
+                <p>043.859.2183</p>
                 <div class="img">
-                    <i class="bi bi-geo-alt-fill"></i>
+                    <img src="../asset/image/logo/geo-alt-fill.svg" alt="bootstrap">
                     <a href="../../index.php?quanly=diachi">235 Hoàng Quốc Việt, Cổ Nhuế, Bắc Từ Liêm, Hà Nội</a>
                 </div>
                 <div class="img">
-                    <i class="bi bi-clock-fill"></i>
+                    <img src="../asset/image/logo/clock-fill.svg" alt="bootstrap">
                     <a href="#">10am - 9pm (Tất cả các ngày trong tuần)</a>
                 </div>
                 <div class="img">
-                    <i class="bi bi-envelope-fill"></i>
+                    <img src="../asset/image/logo/envelope-fill.svg" alt="bootstrap">
                     <a href="#">info@epu.edu.vn</a>
                 </div><br>
                 <a href="../../index.php?quanly=diachi" class="ttch">Thông tin cửa hàng</a>
                 <div class="clear"></div><br>
                 <div class="imgs">
-                    <a href="https://www.facebook.com/tung.khanh.0318/" target="_blank"><img src="../../asset/image/logo/facebook.png" alt=""></a>
+                    <a href="https://www.facebook.com/tung.khanh.0318/" target="_blank"><img src="../asset/image/logo/facebook.svg" alt="bootstrap" width="70" height="70"></a>
                 </div>
                 <div class="imgs">
-                    <a href="https://www.instagram.com/_n.p.c_tung.18_/" target="_blank"><img src="../../asset/image/logo/instagram.png" alt=""></a>
+                    <a href="https://www.instagram.com/_n.p.c_tung.18_/" target="_blank"><img src="../asset/image/logo/instagram.svg" alt="bootstrap" width="70" height="70"></a>
                 </div>
                 <div class="imgs">
                     <a href="../../index.php?quanly=lienhe" target="_blank"><img src="../../asset/image/logo/zalo1.png" alt=""></a>
                 </div>
                 <div class="imgs">
-                    <a href="https://www.tiktok.com/@_n.p.c_tung.18_?is_from_webapp=1&sender_device=pc" target="_blank"><img src="../../asset/image/logo/tiktok.png" alt=""></a>
+                    <a href="https://www.tiktok.com/@_n.p.c_tung.18_?is_from_webapp=1&sender_device=pc" target="_blank"><img src="../asset/image/logo/tiktok.svg" alt="bootstrap" width="70" height="70"></a>
                 </div>  
             </div>
         </li>
