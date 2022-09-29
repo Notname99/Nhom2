@@ -54,6 +54,8 @@
     }elseif ($tam=='Uptempo'){
         $thuong_hieu = 'Nike MUptempo';
         $nhan_hieu = 'Nike';
+    }elseif ($tam=='hotro'){
+        $thuong_hieu = 'Hỗ trợ';
     }else {
         $thuong_hieu = 'Trang chủ';
     }

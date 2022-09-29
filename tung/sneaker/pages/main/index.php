@@ -1,3 +1,3 @@
 <?php
-include ("./tmp/index-sp.php");
+// include ("./tmp/index-sp.php");
 ?>

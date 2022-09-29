@@ -12,7 +12,7 @@
         <li>10:00 - 21:00 <span>(Tất cả các ngày trong tuần)</span></li>
     </ul>
     <button><a href="https://goo.gl/maps/b7eCWoQc5CLxgXQR6" target="_blank"><img src="../../asset/image/logo/geo-alt-fill.svg" alt="bootstrap">Google map</a></button><br/>
-    <button><a href="#">Liên hệ hỗ trợ</a></button>
+    <button><a href="../../index.php?quanly=hotro">Liên hệ hỗ trợ</a></button>
     <p>các tiện ích tại cửa hàng:</p>
     <ul class="ti">
         <li>Wifi miễn phí</li>

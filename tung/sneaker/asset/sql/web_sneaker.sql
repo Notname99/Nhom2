@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 26, 2022 at 10:22 AM
+-- Generation Time: Sep 29, 2022 at 01:06 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -72,6 +72,26 @@ INSERT INTO `tb_adidas` (`id`, `img`, `ten`, `gia`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `tb_hotrokhachang`
+--
+
+CREATE TABLE `tb_hotrokhachang` (
+  `id` int(11) NOT NULL,
+  `ten` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `noidung` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `tb_hotrokhachang`
+--
+
+INSERT INTO `tb_hotrokhachang` (`id`, `ten`, `email`, `noidung`) VALUES
+(1, 'tung', 'tungtrinhthanh0311@gmail.com', 'không có gì');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `tb_nike`
 --
 
@@ -113,6 +133,31 @@ INSERT INTO `tb_nike` (`id`, `img`, `ten`, `gia`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `tb_register`
+--
+
+CREATE TABLE `tb_register` (
+  `id` int(11) NOT NULL,
+  `user` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `sđt` int(20) NOT NULL,
+  `pass` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `tb_register`
+--
+
+INSERT INTO `tb_register` (`id`, `user`, `email`, `sđt`, `pass`) VALUES
+(1, 'ad', 'admin@admin.com', 567384637, 'admin'),
+(2, 'tung', 'tungtrinhthanh0311@gmail.com', 485748372, 'Tung031102'),
+(3, 'nam', 'nambeo102@gmail.com', 436375896, 'nambeo123'),
+(4, 'manh', 'manh3892@gmail.com', 2147483647, 'manh123'),
+(5, 'khánh', 'khanhcung0318@gmail.com', 2147483647, 'Khanh1808');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `tb_size`
 --
 
@@ -148,9 +193,21 @@ ALTER TABLE `tb_adidas`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `tb_hotrokhachang`
+--
+ALTER TABLE `tb_hotrokhachang`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `tb_nike`
 --
 ALTER TABLE `tb_nike`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `tb_register`
+--
+ALTER TABLE `tb_register`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -170,10 +227,22 @@ ALTER TABLE `tb_adidas`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
+-- AUTO_INCREMENT for table `tb_hotrokhachang`
+--
+ALTER TABLE `tb_hotrokhachang`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT for table `tb_nike`
 --
 ALTER TABLE `tb_nike`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+
+--
+-- AUTO_INCREMENT for table `tb_register`
+--
+ALTER TABLE `tb_register`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `tb_size`

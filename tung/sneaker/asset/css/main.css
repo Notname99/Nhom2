@@ -13,7 +13,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fff;
+    background: #ffffff;
 }
 .wrapper{
     width: 75%;
@@ -110,29 +110,14 @@ body{
 }
 .login{
     float: right;
-    margin-left: 5px;
-    width: 125px;
+    width: 145px;
     height: 50px;
-    border: 1px solid #eceeef;
-    border-radius: 5px;
+    margin-left: 10px;
     margin-bottom: 15px;
 }
-.login .people{
-    float: left;
-    margin-left: 10px;
-    margin-top: 13px;
-}
-.login .bnt{
-    width: 100%;
-    height: 100%;
-    background: #eceeef;
-}
-.login .bnt .login-bnt{
-    width: 92px;
-    height: 49px;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    background: transparent;
+.login a.login-a{
+    text-decoration: none;
+    color: #ffffff;
 }
 .list-ul .list-li{
     display: block;
@@ -149,7 +134,7 @@ body{
     width: 16.66666666666667%;
     height: 50px;
 }
-.dropbtn {
+.dropbtn-li {
     color: #000000;
     padding: 16px;
     font-size: 16px;
@@ -158,7 +143,7 @@ body{
     transition: 0.25s ease-in-out;
 }
 
-.dropdown {
+.dropdown-li {
     position: relative;
     display: inline-block;
     transition: 0.25s ease-in-out;
@@ -185,10 +170,10 @@ body{
 .dropdown-content a:hover {
     background-color: #ddd;
 }
-.dropdown:hover .dropdown-content {
+.dropdown-li:hover .dropdown-content {
     display: block;
 }
-.dropdown:hover .dropbtn {
+.dropdown-li:hover .dropbtn-li {
     background-color: transparent;
 }
 .cach{
@@ -199,7 +184,8 @@ body{
 /* thương hiệu */
 h1.thuong_hieu{
     margin: 10px 25px;
-    size: 40px;
+    font-size: 40px;
+    font-weight: 500;
 }
 /* .loc{
     width: 180px;
@@ -508,4 +494,42 @@ ul.items{
 }
 .diachi .ti{
     margin-left: 45px;
+}
+.hotro{
+    padding: 30px 60px;
+    width: 100%;
+    height: auto;
+}
+.hotro p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.hotro .form-group label{
+    font-size: 20px;
+    font-weight: 400;
+}
+.hotro .form-group input.inp{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.hotro .form-group textarea.inpt{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.hotro input.button{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #818a91;
+    border-radius: 5px;
+    background-color: #818a91;
+    color: #ffffff;
+    transition: 0.25s ease-in-out;
+}
+.hotro input.button:hover{
+    border: 1px solid #c36;
+    background-color: #c36;
 }

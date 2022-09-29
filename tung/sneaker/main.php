@@ -11,12 +11,14 @@
     }else{
         $page = '';
     }
-    // if ($tam=='Adidas'){
-    //     include("./pages/main/thuong-hieu.php");
-    //     include("./tmp/index-sp.php");
-    // }else
-    if ($tam=='diachi'){
+    if ($tam=='Adidas' || $tam=='SuperStar' || $tam=='Stan-Smith'|| $tam=='Alphabounce' || $tam=='NMD' || $tam=='Prophere' || $tam=='Ultraboost'|| $tam=='Falcon' || $tam=='Yeezy' || $tam=='Nike' || $tam=='AirForce1'|| $tam=='Jordan' || $tam=='AirMax' || $tam=='AirMax97' || $tam=='AirMax270'|| $tam=='AirMax90' || $tam=='M2KTekno'|| $tam=='Uptempo'){
+        // include("./pages/main/thuong-hieu.php");
+        include("./tmp/index-sp.php");
+    }elseif ($tam=='diachi'){
         include("./pages/main/diachi.php");
+    }elseif ($tam=='hotro') {
+        include("./pages/main/thuong-hieu.php");
+        include("./pages/main/hotro.php");
     }elseif ($tam=='cart'){
         include("./pages/main/cart.php");
     }elseif ($tam=='page1'){
