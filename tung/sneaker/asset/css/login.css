@@ -1,113 +1,23 @@
 @import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
-.login-block{
-    background: #DE6262;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #FFB88C, #DE6262);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    float:left;
-    width:100%;
-    height: 100%;
-    padding : 50px 0;
-    margin-top: 200px;
-}
-.banner-sec{
-    background:url(../image/background/background-login.jpg)  no-repeat left bottom; 
-    background-size:cover; 
-    min-height:500px; 
-    border-radius: 0 10px 10px 0; 
-    padding:0;
-}
-.container{
-    background:#fff; 
-    border-radius: 10px; 
-    box-shadow:15px 20px 0px rgba(0,0,0,0.1);
-}
-.carousel-inner{
-    border-radius:0 10px 10px 0;
-}
-.carousel-caption{
-    text-align:left; 
-    left:5%;
-}
-.login-sec{
-    padding: 50px 30px; 
-    position:relative;
-}
-.login-sec .copy-text{
-    position:absolute; 
-    width:80%; 
-    bottom:20px; 
-    font-size:13px; 
-    text-align:center;
-}
-.login-sec .copy-text i{
-    color:#FEB58A;
-}
-.login-sec .copy-text a{
-    color:#E36262;
-}
-.login-sec h2{
-    margin-bottom:30px; 
-    font-weight:800; 
-    font-size:30px; 
-    color: #DE6262;
-}
-.login-sec h2:after{
-    content:" "; 
-    width:100px; 
-    height:5px; 
-    background:#FEB58A; 
-    display:block; 
-    margin-top:20px; 
-    border-radius:3px; 
-    margin-left:auto;
-    margin-right:auto;
-}
-.btn-login{
-    background: #DE6262; 
-    color:#fff; 
-    font-weight:600;
-}
-.banner-text{
-    width:70%; 
-    position:absolute; 
-    bottom:40px; 
-    padding-left:20px;
-}
-.banner-text h2{
-    color:#fff; 
-    font-weight:600;
-}
-.banner-text h2:after{
-    content:" "; 
-    width:100px; 
-    height:5px; 
-    background:#FFF; 
-    display:block; 
-    margin-top:20px; 
-    border-radius:3px;
-}
-.banner-text p{
-    color:#fff;
-}
-span.color{
-    color: red;
-}
+.login-block{background:#DE6262;background:-webkit-linear-gradient(to bottom,#FFB88C,#DE6262);background:linear-gradient(to bottom,#FFB88C,#DE6262);float:left;width:100%;height:100%;padding:50px 0;margin-top: 200px;}
+.banner-sec{background:url(../image/background/background-login.jpg)no-repeat left bottom;background-size:cover; min-height:500px;border-radius:0 10px 10px 0;padding:0;}
+.container{background:#fff;border-radius:10px;box-shadow:15px 20px 0px rgba(0,0,0,0.1);}
+.carousel-inner{border-radius:0 10px 10px 0;}
+.carousel-caption{text-align:left;left:5%;}
+.login-sec{padding:50px 30px;position:relative;}
+.login-sec .copy-text{position:absolute;width:80%;bottom:20px;font-size:13px;text-align:center;}
+.login-sec .copy-text i{color:#FEB58A;}
+.login-sec .copy-text a{color:#E36262;}
+.login-sec h2{margin-bottom:30px;font-weight:800;font-size:30px;color:#DE6262;}
+.login-sec h2:after{content:" ";width:100px;height:5px;background:#FEB58A;display:block;margin-top:20px;border-radius:3px;margin-left:auto;margin-right:auto;}
+.btn-login{background:#DE6262;color:#fff;font-weight:600;}
+.banner-text{width:70%;position:absolute;bottom:40px;padding-left:20px;}
+.banner-text h2{color:#fff;font-weight:600;}
+.banner-text h2:after{content:" ";width:100px;height:5px;background:#FFF;display:block;margin-top:20px;border-radius:3px;}
+.banner-text p{color:#fff;}
+span.color{color:red;}
 /* Đăng ký */
-section.vh{
-    margin-top: 60px;
-    background: url(../image/background/background-register.jpg);
-}
-.gradient-custom-3 {
-    background: #84fab0;
-    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
-    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
-}
-.gradient-custom-4 {
-    background: #84fab0;
-    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
-    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
-}
-input.check{
-    margin-right: 395px;
-    margin-top: 7px;
-}
+section.vh{margin-top:60px;background:url(../image/background/background-register.jpg);}
+.gradient-custom-3{background:#84fab0;background:-webkit-linear-gradient(to right,rgba(132,250,176,0.5),rgba(143,211,244,0.5));background:linear-gradient(to right,rgba(132,250,176,0.5),rgba(143,211,244,0.5))}
+.gradient-custom-4{background:#84fab0;background:-webkit-linear-gradient(to right,rgba(132,250,176,1),rgba(143,211,244,1));background:linear-gradient(to right,rgba(132,250,176,1),rgba(143,211,244,1))}
+input.check{margin-right:395px;margin-top:7px;}

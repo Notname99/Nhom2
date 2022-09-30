@@ -1,20 +1,8 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-.clear{
-    clear: both;
-}
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #ffffff;
-}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+.clear{clear:both;}
+body{display:flex;align-items:center;justify-content:center;background:#ffffff;}
 .wrapper{
     width: 75%;
     margin: auto;
@@ -532,4 +520,77 @@ ul.items{
 .hotro input.button:hover{
     border: 1px solid #c36;
     background-color: #c36;
+}
+.gallery{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    pointer-events: none;
+    transform: scaleY(0.8);
+    transition: 0.25s ease-in-out;
+}
+.gallery img{
+    float: right;
+    margin: 15px 15px;
+}
+.gallery .gallery-inner{
+    width:17%;
+    height: auto;
+    margin-left: 565px;
+    margin-top: 40px;
+}
+.gallery .gallery-inner img{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.gallery ul.order{
+    list-style: none;
+    float: right;
+    margin: 50px 700px 0 0;
+}
+.gallery ul.order h2{
+    color: #ffffff;
+}
+.gallery ul.order li{
+    margin-bottom: 20px;
+}
+.gallery ul.order li.star{
+    color: #ff7b00;
+}
+.gallery ul.order li.coin h3{
+    color: #ffffff;
+}
+.gallery ul.order li.sizes label{
+    color: #ffffff;
+    margin-right: 20px;
+}
+.gallery ul.order li.sizes select{
+    width: 100px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+.gallery ul.order li.orders{
+    width: 350px;
+    height: 50px;
+}
+.gallery ul.order li.orders button{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #02cfcf;
+    border-radius: 10px;
+    background: #02cfcf;
+}
+.gallery ul.order li.orders button a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.show{
+    opacity: 1;
+    pointer-events: auto;
+    transform: scaleY(0.8);
 }
