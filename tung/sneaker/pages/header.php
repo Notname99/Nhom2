@@ -47,7 +47,7 @@
             <ul id="main-menu">
                 <li class="menu-item"><a href="../../index.php?quanly=Adidas&id=1&per_page=12&page=1">Adidas</a>
                     <ul class="sub-menu">
-                        <li><a href="../../index.php?quanly=SuperStar">Adidas SuperSta</a></li>
+                        <li><a href="../../index.php?quanly=SuperStar">Adidas SuperStar</a></li>
                         <li><a href="../../index.php?quanly=Stan-Smith">Adidas Stan Smith</a></li>
                         <li><a href="../../index.php?quanly=Alphabounce">Adidas Alphabounce</a></li>
                         <li><a href="../../index.php?quanly=NMD">Adidas NMD</a></li>
@@ -69,10 +69,10 @@
                         <li><a href="../../index.php?quanly=Uptempo">Nike Uptempo</a></li>
                     </ul>
                 </li>
-                <li class="menu-item"><a href="#">New Balance</a></li>
-                <li class="menu-item"><a href="#">MLB</a></li>
-                <li class="menu-item"><a href="#">Balenciaga</a></li>
-                <li class="menu-item"><a href="#">Converse</a></li>
+                <li class="menu-item"><a href="../../index.php?quanly=NewBalance&id=1&per_page=12&page=1">New Balance</a></li>
+                <li class="menu-item"><a href="../../index.php?quanly=MLB&id=1&per_page=12&page=1">MLB</a></li>
+                <li class="menu-item"><a href="../../index.php?quanly=Balenciaga&id=1&per_page=12&page=1">Balenciaga</a></li>
+                <li class="menu-item"><a href="../../index.php?quanly=Converse&id=1&per_page=12&page=1">Converse</a></li>
             </ul>
         </nav>
     </div>

@@ -16,7 +16,9 @@
     }else{
         $nho = '';
     }
-    if ($tam=='Adidas' || $tam=='SuperStar' || $tam=='Stan-Smith'|| $tam=='Alphabounce' || $tam=='NMD' || $tam=='Prophere' || $tam=='Ultraboost'|| $tam=='Falcon' || $tam=='Yeezy' || $tam=='Nike' || $tam=='AirForce1'|| $tam=='Jordan' || $tam=='AirMax' || $tam=='AirMax97' || $tam=='AirMax270'|| $tam=='AirMax90' || $tam=='M2KTekno'|| $tam=='Uptempo'){
+    if ($tam=='Adidas' || $tam=='SuperStar' || $tam=='Stan-Smith'|| $tam=='Alphabounce' || $tam=='NMD' || $tam=='Prophere' || $tam=='Ultraboost'|| $tam=='Falcon' || $tam=='Yeezy' 
+    || $tam=='Nike' || $tam=='AirForce1'|| $tam=='Jordan' || $tam=='AirMax' || $tam=='AirMax97' || $tam=='AirMax270'|| $tam=='AirMax90' || $tam=='M2KTekno'|| $tam=='Uptempo'
+    || $tam=='NewBalance'){
         // include("./pages/main/thuong-hieu.php");
         include("./tmp/index-sp.php");
     }elseif ($tam=='chitiet-sp'){

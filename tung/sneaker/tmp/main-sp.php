@@ -107,6 +107,6 @@
         $query = "SELECT * FROM `tb_sanpham` WHERE ma_nhanhieu=16 ORDER BY id ASC";
         $mysql = mysqli_query($conn, $query);
     }else {
-        include("./pages/main/thuong-hieu.php");;
+        include("./pages/main/thuong-hieu.php");
     }
 ?>

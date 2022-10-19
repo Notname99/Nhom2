@@ -54,6 +54,9 @@
     }elseif ($tam=='Uptempo'){
         $thuong_hieu = 'Nike MUptempo';
         $nhan_hieu = 'Nike';
+    }elseif ($tam=='NewBalance'){
+        $thuong_hieu = 'New Balance';
+        $nhan_hieu = 'New Balance';
     }elseif ($tam=='hotro'){
         $thuong_hieu = 'Hỗ trợ';
     }else {
