@@ -1,4 +1,4 @@
-<div class="clear"></div><hr>
+<hr>
 <div class="footer">
     <ul class="footer-class">
         <li>
@@ -72,7 +72,7 @@
                 </div>
                 <div class="imgs">
                     <a href="https://www.tiktok.com/@_n.p.c_tung.18_?is_from_webapp=1&sender_device=pc" target="_blank"><img src="../asset/image/logo/tiktok.svg" alt="bootstrap" width="70" height="70"></a>
-                </div>  
+                </div>
             </div>
         </li>
         <li>

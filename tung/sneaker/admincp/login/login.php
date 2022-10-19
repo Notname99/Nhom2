@@ -1,33 +1,42 @@
 <?php
 include 'xuly.php';
 ?>
-<section class="login-block">
+<section class="sign-in">
     <div class="container">
-	    <div class="row">
-		    <div class="col-md-4 login-sec">
-		        <h2 class="text-center">Đăng nhập</h2>
-		    <form method="POST" action="" class="login-form">
-                <span class="color"><?php echo(isset($err)?$err:'');?></span>
-                <div class="form-group">
-                    <label for="exampleInputEmail1" class="text-uppercase">Username</label>
-                    <input type="text" name="user" class="form-control" placeholder="Username">
-                    <span class="color"><?php echo(isset($error['user'])?$error['user']:''); ?></span>
+        <div class="signin-content">
+            <div class="signin-image">
+                <figure><img src="../../asset/image/background/signin-image.jpg" alt="sing up image"></figure>
+                <a href="./index-login.php?quanly=sign-up" class="signup-image-link">Tạo tài khoản</a>
+            </div>
+
+            <div class="signin-form">
+                <h2 class="form-title">Đăng nhập</h2>
+                <form method="POST" class="register-form" id="login-form">
+                    <div class="form-group">
+                        <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                        <input type="text" name="user" id="your_name" placeholder="<?php echo (isset($error['user']))?$error['user']:'Tài khoản'?>"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
+                        <input type="password" name="pass" id="your_pass" placeholder="<?php echo (isset($error['pass']))?$error['pass']:'Mật khẩu'?>"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
+                        <label for="remember-me" class="label-agree-term"><span><span></span></span>Nhớ mật khẩu</label>
+                    </div>
+                    <div class="form-group form-button">
+                        <input type="submit" name="signin" id="signin" class="form-submit" value="Đăng nhập"/>
+                    </div>
+                </form>
+                <div class="social-login">
+                    <span class="social-label">Hoặc đăng nhập bằng</span>
+                    <ul class="socials">
+                        <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook"></i></a></li>
+                        <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter"></i></a></li>
+                        <li><a href="#"><i class="display-flex-center zmdi zmdi-google"></i></a></li>
+                    </ul>
                 </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1" class="text-uppercase">Password</label>
-                    <input type="password" name="pass" class="form-control" placeholder="Password">
-                    <span class="color"><?php echo(isset($error['pass'])?$error['pass']:''); ?></span>
-                </div>
-                <div class="form-check">
-                    <label class="form-check-label">
-                        <input type="checkbox" name="check" class="form-check-input">
-                        <small>Nhớ mật khẩu?</small>
-                    </label>
-                    <button type="submit" name="button-login" class="btn btn-login float-right">Đăng nhập</button>
-                </div>
-            </form>
-            <div class="copy-text">Bạn chưa có tài khoản?<a href="index-login.php?quanly=register">Đăng ký</a></div>
-		</div>
-		<div class="col-md-8 banner-sec"></div>
+            </div>
+        </div>
     </div>
 </section>

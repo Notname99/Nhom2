@@ -4,7 +4,7 @@ include '../config/connect_db.php';
 $err = '';
 $error = [];
 //đăng nhập
-if (isset($_POST['button-login'])) {
+if (isset($_POST['signin'])) {
     // lấy dữ liệu từ form
     $user = $_POST['user'];
     $pass = $_POST['pass'];
@@ -30,7 +30,7 @@ if (isset($_POST['button-login'])) {
     }
 }
 //đăng ký
-if (isset($_POST['button-register'])) {
+if (isset($_POST['signup'])) {
     // lấy dữ liệu từ form
     $user = $_POST['user'];
     $pass = $_POST['pass'];

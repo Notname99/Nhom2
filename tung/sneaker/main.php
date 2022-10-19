@@ -6,21 +6,28 @@
     }else{
         $tam = '';
     }
-    if (isset($_GET['page'])){
-        $page = $_GET['page'];
+    if (isset($_GET['id'])){
+        $id = $_GET['id'];
     }else{
-        $page = '';
+        $id = '';
+    }
+    if (isset($_GET['thuonghieu'])){
+        $nho = $_GET['thuonghieu'];
+    }else{
+        $nho = '';
     }
     if ($tam=='Adidas' || $tam=='SuperStar' || $tam=='Stan-Smith'|| $tam=='Alphabounce' || $tam=='NMD' || $tam=='Prophere' || $tam=='Ultraboost'|| $tam=='Falcon' || $tam=='Yeezy' || $tam=='Nike' || $tam=='AirForce1'|| $tam=='Jordan' || $tam=='AirMax' || $tam=='AirMax97' || $tam=='AirMax270'|| $tam=='AirMax90' || $tam=='M2KTekno'|| $tam=='Uptempo'){
         // include("./pages/main/thuong-hieu.php");
         include("./tmp/index-sp.php");
+    }elseif ($tam=='chitiet-sp'){
+        include("./tmp/chitiet-sp.php");
     }elseif ($tam=='diachi'){
         include("./pages/main/diachi.php");
     }elseif ($tam=='hotro') {
         include("./pages/main/thuong-hieu.php");
         include("./pages/main/hotro.php");
     }elseif ($tam=='cart'){
-        include("./pages/main/cart.php");
+        include("./pages/main/cart/index-cart.php");
     }elseif ($tam=='page1'){
         include("./pages/main/thuong-hieu.php");
         include("./tmp/index-sp.php");
@@ -36,3 +43,4 @@
     }
     ?>
 </div>
+<div class="clear"></div>

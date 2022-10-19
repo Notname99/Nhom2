@@ -8,88 +8,105 @@
     if ($tam=='Adidas') {
         $data = 'Adidas';
         include("./pages/main/thuong-hieu.php");
-        $query = "SELECT * FROM tb_adidas ORDER BY id ASC LIMIT ".$so_sp." OFFSET ".$offset;
+        $query = "SELECT * FROM tb_sanpham WHERE ma_thuonghieu=1 ORDER BY id ASC LIMIT ".$so_sp." OFFSET ".$offset;
         $mysql = mysqli_query($conn, $query);
 
-        $querys = "SELECT * FROM tb_adidas";
+        $querys = "SELECT * FROM tb_sanpham WHERE ma_thuonghieu=1";
         $tong = mysqli_query($conn, $querys);
         $tong = $tong->num_rows;
         $so_trang = ceil($tong / $so_sp);
     }elseif ($tam=='SuperStar') {
+        $data = 'Adidas';
         include("./pages/main/thuong-hieu.php");
-        $query = "SELECT * FROM `tb_adidas` WHERE id=27 ORDER BY id ASC";
+        $query = "SELECT * FROM `tb_sanpham` WHERE ma_nhanhieu=1 ORDER BY id ASC";
         $mysql = mysqli_query($conn, $query);
     }elseif ($tam=='Stan-Smith') {
+        $data = 'Adidas';
         include("./pages/main/thuong-hieu.php");
-        $query = "SELECT * FROM `tb_adidas` WHERE id=8 OR id=28 ORDER BY id ASC";
+        $query = "SELECT * FROM `tb_sanpham` WHERE ma_nhanhieu=2 ORDER BY id ASC";
         $mysql = mysqli_query($conn, $query);
     }elseif ($tam=='Alphabounce') {
+        $data = 'Adidas';
         include("./pages/main/thuong-hieu.php");
-        $query = "SELECT * FROM `tb_adidas` WHERE id=9 OR id=12 OR id=15 OR id=16 OR id=24 OR id=25 OR id=26 ORDER BY id ASC";
+        $query = "SELECT * FROM `tb_sanpham` WHERE ma_nhanhieu=3 ORDER BY id ASC";
         $mysql = mysqli_query($conn, $query);
     }elseif ($tam=='NMD') {
+        $data = 'Adidas';
         include("./pages/main/thuong-hieu.php");
-        $query = "SELECT * FROM `tb_adidas` WHERE id=10 OR id=23 ORDER BY id ASC";
+        $data = 'Adidas';
+        $query = "SELECT * FROM `tb_sanpham` WHERE ma_nhanhieu=4 ORDER BY id ASC";
         $mysql = mysqli_query($conn, $query);
     }elseif ($tam=='Prophere') {
+        $data = 'Adidas';
         include("./pages/main/thuong-hieu.php");
-        $query = "SELECT * FROM `tb_adidas` WHERE id=11 OR id=29 ORDER BY id ASC";
+        $query = "SELECT * FROM `tb_sanpham` WHERE ma_nhanhieu=5 ORDER BY id ASC";
         $mysql = mysqli_query($conn, $query);
     }elseif ($tam=='Ultraboost') {
+        $data = 'Adidas';
         include("./pages/main/thuong-hieu.php");
-        $query = "SELECT * FROM `tb_adidas` WHERE id=4 OR id=5 OR id=6 OR id=7 ORDER BY id ASC";
+        $query = "SELECT * FROM `tb_sanpham` WHERE ma_nhanhieu=6 ORDER BY id ASC";
         $mysql = mysqli_query($conn, $query);
     }elseif ($tam=='Falcon') {
+        $data = 'Adidas';
         include("./pages/main/thuong-hieu.php");
-        $query = "SELECT * FROM `tb_adidas` WHERE id=1 OR id=2 OR id=3 ORDER BY id ASC";
+        $query = "SELECT * FROM `tb_sanpham` WHERE ma_nhanhieu=7 ORDER BY id ASC";
         $mysql = mysqli_query($conn, $query);
     }elseif ($tam=='Yeezy') {
+        $data = 'Adidas';
         include("./pages/main/thuong-hieu.php");
-        $query = "SELECT * FROM `tb_adidas` WHERE id=13 OR id=14 OR id=17 OR id=18 OR id=19 OR id=20 OR id=21 OR id=22 ORDER BY id ASC";
+        $query = "SELECT * FROM `tb_sanpham` WHERE ma_nhanhieu=8 ORDER BY id ASC";
         $mysql = mysqli_query($conn, $query);
     }elseif ($tam=='Nike') {
         include("./pages/main/thuong-hieu.php");
         $data = 'Nike';
-        $query = "SELECT * FROM tb_nike ORDER BY id ASC LIMIT ".$so_sp." OFFSET ".$offset;
+        $query = "SELECT * FROM tb_sanpham WHERE ma_thuonghieu=2 ORDER BY id ASC LIMIT ".$so_sp." OFFSET ".$offset;
         $mysql = mysqli_query($conn, $query);
 
-        $querys = "SELECT * FROM tb_nike";
+        $querys = "SELECT * FROM tb_sanpham WHERE ma_thuonghieu=2";
         $tong = mysqli_query($conn, $querys);
         $tong = $tong->num_rows;
         $so_trang = ceil($tong / $so_sp);
     }elseif ($tam=='AirForce1') {
+        $data = 'Nike';
         include("./pages/main/thuong-hieu.php");
-        $query = "SELECT * FROM `tb_nike` WHERE id=7 OR id=8 OR id=9 OR id=18 OR id=20 OR id=21 ORDER BY id ASC";
+        $query = "SELECT * FROM `tb_sanpham` WHERE ma_nhanhieu=9 ORDER BY id ASC";
         $mysql = mysqli_query($conn, $query);
     }elseif ($tam=='Jordan') {
+        $data = 'Nike';
         include("./pages/main/thuong-hieu.php");
-        $query = "SELECT * FROM `tb_nike` WHERE id=1 OR id=12 OR id=15 OR id=16 ORDER BY id ASC";
+        $query = "SELECT * FROM `tb_sanpham` WHERE ma_nhanhieu=10 ORDER BY id ASC";
         $mysql = mysqli_query($conn, $query);
     }elseif ($tam=='AirMax') {
+        $data = 'Nike';
         include("./pages/main/thuong-hieu.php");
-        $query = "SELECT * FROM `tb_nike` WHERE id=10 OR id=11 OR id=17 OR id=19 OR id=22 ORDER BY id ASC";
+        $query = "SELECT * FROM `tb_sanpham` WHERE ma_nhanhieu IN (13,14,15) ORDER BY id ASC";
         $mysql = mysqli_query($conn, $query);
     }elseif ($tam=='AirMax97') {
+        $data = 'Nike';
         include("./pages/main/thuong-hieu.php");
-        $query = "SELECT * FROM `tb_nike` WHERE id=11 OR id=19 ORDER BY id ASC";
+        $query = "SELECT * FROM `tb_sanpham` WHERE ma_nhanhieu=13 ORDER BY id ASC";
         $mysql = mysqli_query($conn, $query);
     }elseif ($tam=='AirMax270') {
+        $data = 'Nike';
         include("./pages/main/thuong-hieu.php");
-        $query = "SELECT * FROM `tb_nike` WHERE id=10 OR id=22 ORDER BY id ASC";
+        $query = "SELECT * FROM `tb_sanpham` WHERE ma_nhanhieu=14 ORDER BY id ASC";
         $mysql = mysqli_query($conn, $query);
     }elseif ($tam=='AirMax90') {
+        $data = 'Nike';
         include("./pages/main/thuong-hieu.php");
-        $query = "SELECT * FROM `tb_nike` WHERE id=17 ORDER BY id ASC";
+        $query = "SELECT * FROM `tb_sanpham` WHERE ma_nhanhieu=15 ORDER BY id ASC";
         $mysql = mysqli_query($conn, $query);
     }elseif ($tam=='M2KTekno') {
+        $data = 'Nike';
         include("./pages/main/thuong-hieu.php");
-        $query = "SELECT * FROM `tb_nike` WHERE id=4 OR id=5 ORDER BY id ASC";
+        $query = "SELECT * FROM `tb_sanpham` WHERE ma_nhanhieu=17 ORDER BY id ASC";
         $mysql = mysqli_query($conn, $query);
     }elseif ($tam=='Uptempo') {
+        $data = 'Nike';
         include("./pages/main/thuong-hieu.php");
-        $query = "SELECT * FROM `tb_nike` WHERE id=13 OR id=14 ORDER BY id ASC";
+        $query = "SELECT * FROM `tb_sanpham` WHERE ma_nhanhieu=16 ORDER BY id ASC";
         $mysql = mysqli_query($conn, $query);
     }else {
-        include("./pages/main/thuong-hieu.php");
+        include("./pages/main/thuong-hieu.php");;
     }
 ?>
