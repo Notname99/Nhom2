@@ -8,7 +8,7 @@
         </div>
         <div class="search-img">
             <form method="POST" action="">
-                <input type="search" class="search-input" placeholder="   Nhập tên sản phẩm và enter..." />
+                <input type="search" class="search-input" placeholder="Nhập tên sản phẩm và enter..." />
             </form>
         </div>
     </div>

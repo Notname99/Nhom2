@@ -44,6 +44,7 @@ body{display:flex;align-items:center;justify-content:center;background:#ffffff;}
   border: 1px solid transparent;
   border-radius: 5px;
   background: transparent;
+  padding: 0 10px 0 10px;
 }
 .map {
   float: left;
@@ -106,63 +107,6 @@ body{display:flex;align-items:center;justify-content:center;background:#ffffff;}
   text-decoration: none;
   color: #ffffff;
 }
-/* .list-ul .list-li {
-  display: block;
-  color: #000;
-  float: left;
-  text-align: center;
-  list-style: none;
-  width: 16.66666666666667%;
-  height: 50px;
-  transition: 0.5s ease-in-out;
-}
-.list-ul .list-li:hover {
-  background: #ddd;
-  width: 16.66666666666667%;
-  height: 50px;
-}
-.dropbtn-li {
-  color: #000000;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  text-decoration: none;
-  transition: 0.25s ease-in-out;
-}
-
-.dropdown-li {
-  position: relative;
-  display: inline-block;
-  transition: 0.25s ease-in-out;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  transition: 0.25s ease-in-out;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 80px;
-  text-decoration: none;
-  display: block;
-  transition: 0.25s ease-in-out;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-.dropdown-li:hover .dropdown-content {
-  display: block;
-}
-.dropdown-li:hover .dropbtn-li {
-  background-color: transparent;
-} */
 #list{
   width: 100%;
   height: auto;
@@ -216,7 +160,8 @@ nav.list-nav{
 }
 #main-menu li.menu-item ul.sub-menu li:hover a{
   border-bottom: 1px solid #c2c2c2;
-  background: #8d8d8d;;
+  background: #8d8d8d;
+  color: #f8f8f8;
 }
 #main-menu li.menu-item ul.sub-menu li:last-child a{
   border: none;
@@ -289,12 +234,12 @@ ul.product li {
   flex-basis: 25%;
   list-style: none;
   box-sizing: border-box;
-  padding: 15px 15px;
+  padding: 15px;
   margin-bottom: 30px;
   transition: 0.25s ease-in-out;
 }
 ul.product li:hover{
-  padding: 10px 10px;
+  padding: 10px;
 }
 ul.product li img {
   max-width: 100%;
@@ -705,17 +650,18 @@ td{
   text-align: center;
   padding-left: 20px;
 }
-.order table .giohang-soluong input[type='text']{
-  width: 40px;
-  text-align: center;
+.order table .giohang-soluong input[type='number']{
+  width: 60px;
+  height: 35px;
   border: 2px solid #e2dad3;
-  border-radius: 5px;
+  border-radius: 40px;
   background: transparent;
+  padding-left: 20px;
 }
 .order table .giohang-soluong{
   width: 100px;
   text-align: center;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 .order table .giohang-thanhtien{
   width: 150px;
@@ -777,6 +723,62 @@ td{
 .order hr{
   margin-bottom: 100px;
 }
+.order .error,
+.order .ordered{
+  width: 90%;
+  height: auto;
+  margin: auto;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: inset 10px 10px 10px rgba(255, 255, 255, 0.05),
+                15px 25px 10px rgba(255, 255, 255, 0.1),
+                10px 20px 20px rgba(0, 0, 0, 0.05),
+                inset -10px -10px 15px rgba(255, 255, 255, 0.9);
+  padding: 30px 30px;
+  color: #291334;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.order .error p{
+  color: #ff0000;
+  font-size: 18px;
+  float: left;
+}
+.order .error span,
+.order .ordered span,
+.order .error a,
+.order .ordered a{
+  margin-left: 10px;
+}
+.order .ordered p{
+  color: #00ff15;
+  font-size: 18px;
+  float: left;
+}
+.order .total{
+  margin: 30px 0 0 125px;
+}
+.order .total label.total{
+  font-size: 30px;
+}
+.order .total label.total-number{
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.order .total label.total-number sup{
+  font-size: 15px;
+  font-weight: normal;
+}
+.order .ordered label{
+  color: #00ff15;
+}
+.order .ordered span{
+  margin-left: 10px;
+}
 .order .order-border{
   width: 50%;
   height: auto;
@@ -810,6 +812,7 @@ td{
   margin-bottom: 5px;
   border-radius: 50px;
   font-size: 15px;
+  padding: 0 20px 0 20px;
 }
 .order .order-border input[type='text'],
 .order .order-border input[type='number']{
@@ -820,6 +823,9 @@ td{
   border: 1px solid #8b828f;
   border-radius: 10px;
   color: #291334;
+  padding: 10px;
+  width: 100%;
+  height: auto;
 }
 .order .order-border input[type='submit']{
   align-items: center;
