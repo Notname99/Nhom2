@@ -46,6 +46,7 @@
         <li>
             <div class="footer-class1-item">
                 <p class="size">dienlucsneaker.com</p>
+                <p><b>Shop giày sneaker</b> số 1 tại Viet Nam. Hàng trăm mẫu Sneaker và thời trang streetwear được chọn lọc kĩ càng luôn có sẵn với đầy đủ size tại cửa hàng của chúng tôi.</p>
                 <p>043.859.2183</p>
                 <div class="img">
                     <img src="../asset/image/logo/geo-alt-fill.svg" alt="bootstrap">
@@ -79,14 +80,14 @@
             <div class="items">
                 <p>Thông tin</p>
                 <a href="#">Tài khoản</a>
-                <a href="#">Kiểm tra đơn hàng</a>
+                <a href="../index.php?quanly=kiemtradonhang">Kiểm tra đơn hàng</a>
                 <a href="#">Đăng ký nhận tin</a>
             </div>
         </li>
         <li>
             <div class="items">
                 <p>Chăm sóc khách hàng</p>
-                <a href="#">Hướng dẫn mua sắm</a>
+                <a href="../index.php?quanly=huongdanmuahang">Hướng dẫn mua sắm</a>
                 <a href="#">Chính sách bảo mật</a>
                 <a href="#">Hình thức thanh toán</a>
                 <a href="#">Vận chuyển và giao nhận</a>

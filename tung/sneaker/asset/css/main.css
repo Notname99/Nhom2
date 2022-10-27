@@ -914,3 +914,54 @@ td{
   color: #000000;
   text-decoration: none;
 }
+.kiemtradonhang,
+.huongdanmuahang{
+  padding: 60px;
+  margin: 0;
+}
+.kiemtradonhang h1{
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 200px;
+}
+.kiemtradonhang p{
+  margin: 0 300px;
+}
+.kiemtradonhang input{
+  padding: 0 10px;
+  width: auto;
+  height: 50px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+.kiemtradonhang input[type='text']{
+  margin: 20px 0 10px 300px;
+  width: 30%;
+}
+.kiemtradonhang input[type='email']{
+  margin: 20px;
+  width: 30%;
+}
+.kiemtradonhang input[type='button']{
+  margin-left: 300px;
+  margin-bottom: 100px;
+  width: 10%;
+  border: 1px solid #e9e9e9;
+  background: #e9e9e9;
+  transition: 0.25s ease-in-out;
+}
+.kiemtradonhang input[type='button']:hover{
+  border: 1px solid #cecece;
+  background: #cecece;
+}
+.huongdanmuahang h1{
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+.huongdanmuahang h3{
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 60px;
+}

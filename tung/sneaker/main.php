@@ -39,8 +39,11 @@
     }elseif ($tam=='page3'){
         include("./pages/main/thuong-hieu.php");
         include("./tmp/index-sp.php");
-    }
-    else{
+    }elseif ($tam=='kiemtradonhang'){
+        include("./pages/main/kiemtradonhang.php");
+    }elseif ($tam=='huongdanmuahang'){
+        include("./pages/main/huongdanmuahang.php");
+    }else{
         include("./pages/main/index.php");
     }
     ?>
